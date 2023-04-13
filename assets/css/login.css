@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+  }
+
+  .left-side {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #company-title {
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    font-size: 30px;
+  }
+
+  .right-side {
+    height: 100%;
+    background-image: url("../images/login-image.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .form-container {
+    max-width: 400px;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+  }
+
+  .form-control {
+    border-radius: 25px;
+    padding-left: 5%;
+  }
+
+  .btn-login {
+    border-radius: 25px;
+    background-color: #007bff;
+    color: #fff;
+  }
