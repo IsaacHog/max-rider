@@ -15,7 +15,6 @@ body {
     position: absolute;
     top: 2%;
     left: 5%;
-    font-size: 30px;
   }
 
   .right-side {
@@ -27,20 +26,7 @@ body {
     background-position: center;
   }
 
-  .form-container {
-    max-width: 400px;
-    width: 100%;
-    background-color: #fff;
-    padding: 30px;
-  }
-
-  .form-control {
-    border-radius: 25px;
-    padding-left: 5%;
-  }
-
   .btn-login {
-    border-radius: 25px;
     background-color: #007bff;
     color: #fff;
   }
