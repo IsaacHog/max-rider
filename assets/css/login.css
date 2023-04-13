@@ -21,7 +21,9 @@ body {
   .right-side {
     height: 100%;
     background-image: url("../images/login-image.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #0047FF;
     background-position: center;
   }
 
