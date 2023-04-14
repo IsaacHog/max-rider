@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/index.css">
   <?php include "links_header.php"; ?>
 </head>
-<body>
+<body class="bg-light">
   <?php include("navbar.php"); ?>
 </body>
 </html>
