@@ -57,7 +57,7 @@
                     </div>
                 </div>
 
-                <div class="row m-2 align-items-center bg-white">
+                <div class="row m-2 align-items-center">
                     <div class="input-group border rounded-5">
                         <div class="input-group-prepend">
                             <span class="input-group-text bg-transparent border-0">
@@ -69,20 +69,41 @@
                 </div>
 
                 <div class="row">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center mb-3">
                         <small class="form-text text-black fs-6">Persona de contacto</small>
                     </div>
                     <div class="col-6 mb-3">
                         <input class="form-control border-0 rounded-5" placeholder="Nombre">
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 mb-3">
                     <input class="form-control border-0 rounded-5" placeholder="Apellidos">
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 mb-3">
                         <input class="form-control border-0 rounded-5" placeholder="Compañía">
                     </div>
-                    <div class="col-6">
-                    <input class="form-control border-0 rounded-5" placeholder="Teléfono">
+                    <div class="col-6 mb-3">
+                        <input class="form-control border-0 rounded-5" placeholder="Teléfono">
+                    </div>  
+                    <div class="col-12 mb-3">
+                        <input class="form-control border-0 rounded-5" placeholder="Email">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <input class="form-control border-0 rounded-5" placeholder="Piso, puerta e información">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="row align-items-center mb-3">
+                        <small class="form-text text-black fs-6">Detalles del pedido</small>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <input class="form-control border-0 rounded-5" placeholder="Tamaño">
+                    </div>
+                    <div class="col-6 mb-3">
+                    <input class="form-control border-0 rounded-5" placeholder="ID del pedido">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <input class="form-control border-0 rounded-5" placeholder="Información del pedido">
                     </div>
                 </div>
             </div>
