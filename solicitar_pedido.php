@@ -58,13 +58,13 @@
                 </div>
 
                 <div class="row m-2 align-items-center">
-                    <div class="input-group border rounded-5">
+                    <div class="input-group border rounded-5 bg-white">
                         <div class="input-group-prepend">
                             <span class="input-group-text bg-transparent border-0">
                                 <i class="bi bi-search text-primary fs-5"></i>
                             </span>
                         </div>
-                        <input class="form-control border-0" placeholder="Buscar una dirección">
+                        <input class="form-control border-0 form-control-lg" placeholder="Buscar una dirección">
                     </div>
                 </div>
 
@@ -73,22 +73,22 @@
                         <small class="form-text text-black fs-6">Persona de contacto</small>
                     </div>
                     <div class="col-6 mb-3">
-                        <input class="form-control border-0 rounded-5" placeholder="Nombre">
+                        <input class="form-control border-1 rounded-5" placeholder="Nombre">
                     </div>
                     <div class="col-6 mb-3">
-                    <input class="form-control border-0 rounded-5" placeholder="Apellidos">
+                    <input class="form-control border-1 rounded-5" placeholder="Apellidos">
                     </div>
                     <div class="col-6 mb-3">
-                        <input class="form-control border-0 rounded-5" placeholder="Compañía">
+                        <input class="form-control border-1 rounded-5" placeholder="Compañía">
                     </div>
                     <div class="col-6 mb-3">
-                        <input class="form-control border-0 rounded-5" placeholder="Teléfono">
+                        <input class="form-control border-1 rounded-5" placeholder="Teléfono">
                     </div>  
                     <div class="col-12 mb-3">
-                        <input class="form-control border-0 rounded-5" placeholder="Email">
+                        <input class="form-control border-1 rounded-5" placeholder="Email">
                     </div>
                     <div class="col-12 mb-3">
-                        <input class="form-control border-0 rounded-5" placeholder="Piso, puerta e información">
+                        <input class="form-control border-1 rounded-5" placeholder="Piso, puerta e información">
                     </div>
                 </div>
 
@@ -97,13 +97,13 @@
                         <small class="form-text text-black fs-6">Detalles del pedido</small>
                     </div>
                     <div class="col-6 mb-3">
-                        <input class="form-control border-0 rounded-5" placeholder="Tamaño">
+                        <input class="form-control border-1 rounded-5" placeholder="Tamaño">
                     </div>
                     <div class="col-6 mb-3">
-                    <input class="form-control border-0 rounded-5" placeholder="ID del pedido">
+                    <input class="form-control border-1 rounded-5" placeholder="ID del pedido">
                     </div>
                     <div class="col-12 mb-3">
-                        <input class="form-control border-0 rounded-5" placeholder="Información del pedido">
+                        <input class="form-control border-1 rounded-5" placeholder="Información del pedido">
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                     </div>
                 </div>
                 <div class="row m-2 align-items-center">
-                    <button class="btn btn-light dropdown-toggle border border-1 rounded-5">
+                    <button class="btn btn-lg dropdown-toggle border border-1 rounded-5">
                         Seleccionar punto de recogida
                     </button>
                 </div>
