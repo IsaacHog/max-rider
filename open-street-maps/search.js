@@ -4,7 +4,14 @@ function search() {
     var query = encodeURIComponent(document.getElementById('query').value);
 
     // Reduce API stress
-    if (query.length < 3) { 
+    if (query.length < 3 || query.length === 0) { 
+        var addressHtml = '<div class="card">';
+        addressHtml += '<div class="card-header">Address:</div>';
+        addressHtml += '<div class="card-body">';
+        addressHtml += '<p class="card-text">' + "No results" + '</p>';
+        addressHtml += '</div>';
+        addressHtml += '</div>';
+        document.getElementById('search-results').innerHTML = addressHtml;
         return; 
     }
 
@@ -26,8 +33,16 @@ function search() {
                     .then(response => response.json())
                     .then(data => {
                         var address = data.display_name;
+                        
+                        var addressHtml = '<div class="card">';
+                        addressHtml += '<div class="card-header">Address:</div>';
+                        addressHtml += '<div class="card-body">';
+                        addressHtml += '<p class="card-text">' + address + '</p>';
+                        addressHtml += '</div>';
+                        addressHtml += '</div>';
+                        
 
-                        document.getElementById('search-results').innerHTML = address;
+                        document.getElementById('search-results').innerHTML = addressHtml;
                     })
                     .catch(error => console.error(error));
             })
