@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OpenStreetMaps Test</title>
     <?php include "../links_header.php"; ?>
+    <script src="search.js"></script>
 </head>
 
 <body class="bg-light">
@@ -31,33 +32,16 @@
     </nav>
 
     <div class="container mt-5">
-        <form action="" method="get">
+        <form action="" method="get" id="search-form">
             <div class="row">
                 <div class="col-md-6 mb-3">
                     <input type="text" class="form-control" id="query" name="query"
-                        placeholder="Location">
+                        placeholder="Location" oninput="search()">
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary">Search</button>
         </form>
+        <div id="search-results"></div>
     </div>
-
-    <?php
-    if (isset($_GET['query'])) {
-        $query = urlencode($_GET['query']);
-        $url = "https://nominatim.openstreetmap.org/search?q=$query&format=jsonv2&addressdetails=1";
-
-        ini_set('user_agent', 'My Application');
-
-        $data = file_get_contents($url);
-        $results = json_decode($data, true);
-
-        foreach ($results as $result) {
-            echo $result['display_name'] . '<br>';
-        }
-    }
-    ?>
-
 
 </body>
 
