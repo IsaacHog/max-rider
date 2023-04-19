@@ -6,8 +6,8 @@
     <title>OpenStreetMaps Test</title>
     <?php include "../links_header.php"; ?>
     <script src="search.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
-
 <body class="bg-light">
     <nav class="navbar navbar-expand-sm bg-white navbar-light p-3">
         <a class="navbar-brand d-flex align-items-center" href="index.php">
