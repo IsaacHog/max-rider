@@ -12,7 +12,7 @@
 
     <div class="container-fluid row">
         <!-- Input fields -->
-        <div class="col-6 col-lg-5 col-xl-4 col-xxl-3">
+        <div class="col-6 col-lg-5 col-xl-4 col-xxl-3 mt-5">
 
             <!-- Recogida -->
             <div class="container border border-1 border-secondary-subtle rounded-4 mb-4 p-3">
@@ -138,7 +138,7 @@
         </div>
 
         <!-- Google maps -->
-        <div class="col-6 col-lg-7 col-xl-8 col-xxl-9 bg-secondary">
+        <div class="col-6 col-lg-7 col-xl-8 col-xxl-9 bg-secondary mt-3">
             <p>placeholder</p>
         </div>
     </div>
