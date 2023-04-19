@@ -28,10 +28,21 @@
                         <h5 class="mb-0 fw-bold">Recogida</h5>
                     </div>
                 </div>
-                <div class="row m-2 align-items-center">
-                    <button class="btn btn-light dropdown-toggle border border-1 rounded-5">
+
+
+                <!--- <button class="btn dropdown-toggle border border-1 rounded-5 text-muted text-start" data-bs-toggle="dropdown"> -->
+
+
+                <div class="dropdown row m-2">
+                    <button class="btn dropdown-toggle border border-1 rounded-5 text-muted text-start bg-white" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Seleccionar punto de recogida
                     </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="row align-items-center">
@@ -64,7 +75,7 @@
                                 <i class="bi bi-search text-primary fs-5"></i>
                             </span>
                         </div>
-                        <input class="form-control border-0 form-control-lg" placeholder="Buscar una dirección">
+                        <input class="form-control border-0" placeholder="Buscar una dirección">
                     </div>
                 </div>
 
@@ -76,14 +87,14 @@
                         <input class="form-control border-1 rounded-5" placeholder="Nombre">
                     </div>
                     <div class="col-6 mb-3">
-                    <input class="form-control border-1 rounded-5" placeholder="Apellidos">
+                        <input class="form-control border-1 rounded-5" placeholder="Apellidos">
                     </div>
                     <div class="col-6 mb-3">
                         <input class="form-control border-1 rounded-5" placeholder="Compañía">
                     </div>
                     <div class="col-6 mb-3">
                         <input class="form-control border-1 rounded-5" placeholder="Teléfono">
-                    </div>  
+                    </div>
                     <div class="col-12 mb-3">
                         <input class="form-control border-1 rounded-5" placeholder="Email">
                     </div>
@@ -100,7 +111,7 @@
                         <input class="form-control border-1 rounded-5" placeholder="Tamaño">
                     </div>
                     <div class="col-6 mb-3">
-                    <input class="form-control border-1 rounded-5" placeholder="ID del pedido">
+                        <input class="form-control border-1 rounded-5" placeholder="ID del pedido">
                     </div>
                     <div class="col-12 mb-3">
                         <input class="form-control border-1 rounded-5" placeholder="Información del pedido">
@@ -123,15 +134,16 @@
                     </div>
                 </div>
                 <div class="row m-2 align-items-center">
-                    <button class="btn btn-lg dropdown-toggle border border-1 rounded-5">
-                        Seleccionar punto de recogida
-                    </button>
+                    <div class="col-12 mb-3">
+                        <input class="form-control border-1 rounded-5" placeholder="Entregar más tarde">
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="row align-items-center">
-                        <small class="form-text text-muted text-center fs-6">Crear un
-                            <a href="#">nuevo contacto</a>
-                        </small>
+                <div class="row m-2 align-items-center">
+                    <div class="col-6 mb-3">
+                        <input class="form-control border-1 rounded-5" placeholder="Tamaño">
+                    </div>
+                    <div class="col-6 mb-3">
+                        <input class="form-control border-1 rounded-5" placeholder="ID del pedido">
                     </div>
                 </div>
             </div>
