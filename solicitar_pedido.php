@@ -68,7 +68,7 @@
                     </div>
                 </div>
 
-                <div class="row m-2 align-items-center">
+                <div class="row align-items-center">
                     <div class="input-group border rounded-5 bg-white">
                         <div class="input-group-prepend">
                             <span class="input-group-text bg-transparent border-0">
@@ -133,12 +133,12 @@
                         <h5 class="mb-0 fw-bold">Horario</h5>
                     </div>
                 </div>
-                <div class="row m-2 align-items-center">
+                <div class="row align-items-center">
                     <div class="col-12 mb-3">
                         <input class="form-control border-1 rounded-5" placeholder="Entregar más tarde">
                     </div>
                 </div>
-                <div class="row m-2 align-items-center">
+                <div class="row align-items-center">
                     <div class="col-6 mb-3">
                         <input class="form-control border-1 rounded-5" placeholder="Tamaño">
                     </div>
