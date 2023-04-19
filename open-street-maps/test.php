@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MaxRider</title>
+    <title>OpenStreetMaps Test</title>
     <?php include "../links_header.php"; ?>
 </head>
 
@@ -29,7 +29,12 @@
 
         </div>
     </nav>
-
+    
+    
+    
+    
+    
+    <?php
     $latitude = 51.5074;
     $longitude = -0.1278;
 
@@ -39,7 +44,6 @@
     $result = json_decode($data, true);
 
     print_r($result);
-
     ?>
 
 
