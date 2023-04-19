@@ -29,21 +29,33 @@
 
         </div>
     </nav>
-    
-    
-    
-    
-    
+
+    <div class="container mt-5">
+        <form action="" method="get">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <input type="text" class="form-control" id="query" name="query"
+                        placeholder="Location">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+    </div>
+
     <?php
-    $latitude = 51.5074;
-    $longitude = -0.1278;
+    if (isset($_GET['query'])) {
+        $query = urlencode($_GET['query']);
+        $url = "https://nominatim.openstreetmap.org/search?q=$query&format=jsonv2&addressdetails=1";
 
-    $url = "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=$latitude&lon=$longitude";
-    print_r($url);
-    $data = file_get_contents($url);
-    $result = json_decode($data, true);
+        ini_set('user_agent', 'My Application');
 
-    print_r($result);
+        $data = file_get_contents($url);
+        $results = json_decode($data, true);
+
+        foreach ($results as $result) {
+            echo $result['display_name'] . '<br>';
+        }
+    }
     ?>
 
 
