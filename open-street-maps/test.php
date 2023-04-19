@@ -20,9 +20,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-black <?php if (basename($_SERVER['PHP_SELF']) == 'solicitar_pedido.php')
-                        echo 'border-bottom border-primary border-2'; ?>"
-                        href="solicitar_pedido.php">Open Street Maps Test</a>
+                    <a class="nav-link text-black" href="#">Open Street Maps Test</a>
                 </li>
             </ul>
             <a class="nav-link-person btn btn-light rounded-5 py-2 px-4 ml-auto" href="login.php">
