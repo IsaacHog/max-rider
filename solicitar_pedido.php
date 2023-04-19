@@ -33,7 +33,7 @@
                 <!--- <button class="btn dropdown-toggle border border-1 rounded-5 text-muted text-start" data-bs-toggle="dropdown"> -->
 
 
-                <div class="dropdown row m-2">
+                <div class="dropdown row m-1">
                     <button class="btn dropdown-toggle border border-1 rounded-5 text-muted text-start bg-white" type="button" id="dropdownMenuButton"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Seleccionar punto de recogida
@@ -68,7 +68,7 @@
                     </div>
                 </div>
 
-                <div class="row align-items-center">
+                <div class="row align-items-center m-1">
                     <div class="input-group border rounded-5 bg-white">
                         <div class="input-group-prepend">
                             <span class="input-group-text bg-transparent border-0">
