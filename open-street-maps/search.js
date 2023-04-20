@@ -18,7 +18,7 @@ function search() {
             var addressHtml = '';
             data.features.forEach((element) => {
                 addressHtml += `
-                    <a href="#" class="list-group-item list-group-item-action" data-lat='${element.geometry.coordinates[1]}' data-lng='${element.geometry.coordinates[0]}'>
+                    <a href="#" class="list-group-item list-group-item-action search-result" data-lat='${element.geometry.coordinates[1]}' data-lng='${element.geometry.coordinates[0]}'>
                         ${element.properties.display_name}
                     </a>
                 `;                
@@ -39,7 +39,21 @@ function search() {
                         <div class="list-group list-group-flush">${addressHtml}</div>
                     </div>`
                 );
-            }            
+            }
+            
+            attachClickHandler();
         })
         .catch(error => console.error(error));
 }
+
+function attachClickHandler() {
+    var searchResults = document.querySelectorAll('.search-result');
+    for (var i = 0; i < searchResults.length; i++) {
+      $(searchResults[i]).one('click', function() {
+        var lat = this.dataset.lat;
+        var lng = this.dataset.lng;
+        console.log(lat);
+      });
+    }
+  }
+  
