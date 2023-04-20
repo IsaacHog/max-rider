@@ -24,7 +24,6 @@ export function attachClickHandler() {
         icon: (positionType === 'start' ? startIcon : endIcon)
       }).addTo(map);
 
-      // set the corresponding marker variable
       if (positionType === 'start') {
         startMarker = marker;
       } else {
