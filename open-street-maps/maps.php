@@ -45,7 +45,7 @@
 </div>
 
 
-<script src="create-map.js"></script>
-<script type="module" src="search.js"></script>
+<script src="open-street-maps/create-map.js"></script>
+<script type="module" src="open-street-maps/search.js"></script>
 
 </html>
