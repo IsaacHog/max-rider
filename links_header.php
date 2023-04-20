@@ -2,7 +2,7 @@
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
 <!----------- NORMALIZE ----------->
-<link rel='stylesheet' href='css/normalize.css'>
+<!-- <link rel='stylesheet' href='css/normalize.css'> -->
 
 <!----------- SELECTIZE ----------->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.14.0/css/selectize.css" integrity="sha512-ikoGg2i+6jXI1u0qXylbyIb+9f9/z/fVQR4kor0Dmt3oTIb/ZnOZ33POmdUitzXTDrd5XCpQUhsiXnl/oTuiHA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
