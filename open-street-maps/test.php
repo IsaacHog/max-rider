@@ -36,8 +36,11 @@
     <div class="container mt-5">
         <form action="" method="get" id="search-form">
             <div class="row">
-                <div class="col-md-6 mb-3">
-                    <input type="text" class="form-control" id="query" name="query" placeholder="Location">
+                <div class="col-6 mb-3">
+                    <input type="text" class="form-control search-input" id="query-start" name="query-start" placeholder="Start location">
+                </div>
+                <div class="col-6 mb-3">
+                    <input type="text" class="form-control search-input" id="query-end" name="query-end" placeholder="End location">
                 </div>
             </div>
         </form>
