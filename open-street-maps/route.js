@@ -42,15 +42,32 @@ export async function displayRoute(startMarker, endMarker) {
             ]);
             map.fitBounds(sfBounds);
 
-            drawRouteInfo(data.routes[0].segments[0].distance)
+            drawRouteInfo(data)
         }
     } catch (error) {
         console.error(error);
     }
 }
 
-function drawRouteInfo(distance) {
-    const routeInfo = document.getElementById('route-info');
-    routeInfo.textContent = `Distance: ${distance} meters`;
-  }
-  
+function drawRouteInfo(data) {
+    console.log(data)
+    document.getElementById('route-distance-car').textContent = `:  ${(data.routes[0].segments[0].distance / 1000).toFixed(2)} km`;
+    document.getElementById('route-duration-car').textContent = `:  ${formatDuration(data.routes[0].segments[0].duration)}`;
+}
+
+function formatDuration(duration) {
+    let durationText;
+
+    if (duration < 3600) {
+        // Display minutes only
+        const minutes = Math.round(duration / 60);
+        durationText = `${minutes} minutes`;
+    } else {
+        // Display hours and minutes
+        const hours = Math.floor(duration / 3600);
+        const minutes = Math.round((duration % 3600) / 60);
+        durationText = `${hours}h ${minutes} minutes`;
+    }
+
+    return durationText;
+}
