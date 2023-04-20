@@ -24,7 +24,6 @@ export async function displayRoute(startMarker, endMarker) {
 
         const data = await response.json();
         const encodedRoutes = [data.routes[0].geometry];
-        localStorage.setItem('coordinates', data.routes[0].geometry);
 
         for (const encoded of encodedRoutes) {
             const coordinates = L.Polyline.fromEncoded(encoded).getLatLngs();
