@@ -18,6 +18,11 @@ export function attachClickHandler() {
       var markerToRemove = map.hasLayer(startMarker) && positionType === 'start' ? startMarker : endMarker;
       if (markerToRemove) {
         map.removeLayer(markerToRemove);
+        map.eachLayer(function (layer) {
+          if (layer instanceof L.Polyline && layer.options.id === 'route') {
+            map.removeLayer(layer);
+          }
+        });
       }
 
       var marker = L.marker([lat, long], {

@@ -33,7 +33,7 @@ export async function displayRoute(startMarker, endMarker) {
                 weight: 4,
                 opacity: .7,
                 lineJoin: 'round',
-                id: 'ruta'
+                id: 'route'
             }).addTo(map);
 
             const sfBounds = L.latLngBounds([
