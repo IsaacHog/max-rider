@@ -7,7 +7,10 @@
     <?php include "../links_header.php"; ?>
     <script src="search.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js"></script>
 </head>
+
 <body class="bg-light">
     <nav class="navbar navbar-expand-sm bg-white navbar-light p-3">
         <a class="navbar-brand d-flex align-items-center" href="index.php">
@@ -41,8 +44,10 @@
             </div>
         </form>
         <div id="search-results"></div>
+        <div id="mapid" style="height: 400px; width: 100%"></div>
     </div>
 
+    <script src="create-map.js"></script>
 </body>
 
 </html>
