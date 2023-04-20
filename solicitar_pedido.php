@@ -37,16 +37,10 @@
                 <!--- <button class="btn dropdown-toggle border border-1 rounded-5 text-muted text-start" data-bs-toggle="dropdown"> -->
 
 
-                <div class="dropdown row m-1">
-                    <button class="btn dropdown-toggle border border-1 rounded-5 text-muted text-start bg-white" type="button" id="dropdownMenuButton"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Seleccionar punto de recogida
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                <div class="row">
+                    <input class="btn border border-1 rounded-5 text-start bg-white search-input" type="text"
+                        id="query-start" name="query-start" placeholder="Seleccionar punto de recogida">
+                    </input>
                 </div>
                 <div class="row">
                     <div class="row align-items-center">
@@ -79,7 +73,8 @@
                                 <i class="bi bi-search text-primary fs-5"></i>
                             </span>
                         </div>
-                        <input class="form-control border-0" placeholder="Buscar una dirección">
+                        <input class="form-control border-0 search-input" placeholder="Buscar una dirección"
+                            id="query-end" name="query-end">
                     </div>
                 </div>
 

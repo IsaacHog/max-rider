@@ -1,25 +1,10 @@
 <div class="container mt-5">
-    <div class="row mb-3">
-        <form action="" method="get" id="search-form" class="ps-0 pe-0">
-            <div class="row">
-                <div class="col-6">
-                    <input type="text" class="form-control search-input" id="query-start" name="query-start"
-                        placeholder="Start location">
-                </div>
-                <div class="col-6">
-                    <input type="text" class="form-control search-input" id="query-end" name="query-end"
-                        placeholder="End location">
-                </div>
-            </div>
-        </form>
-    </div>
-
     <div class="row">
         <div id="search-results" class="col-12 d-flex justify-content-center"></div>
     </div>
 
     <div class="row mb-3">
-        <div id="mapid" style="height: 500px; width: 100%" class="col-12"></div>
+        <div id="mapid" style="height: 700px; width: 100%" class="col-12"></div>
     </div>
 
     <div class="row mb-3">
