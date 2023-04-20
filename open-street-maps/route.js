@@ -61,12 +61,12 @@ function formatDuration(duration) {
     if (duration < 3600) {
         // Display minutes only
         const minutes = Math.round(duration / 60);
-        durationText = `${minutes} minutes`;
+        durationText = `${minutes}min`;
     } else {
         // Display hours and minutes
         const hours = Math.floor(duration / 3600);
         const minutes = Math.round((duration % 3600) / 60);
-        durationText = `${hours}h ${minutes} minutes`;
+        durationText = `${hours}h ${minutes}min`;
     }
 
     return durationText;
