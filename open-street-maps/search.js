@@ -1,4 +1,8 @@
+
+import { debounce } from './debounce.js';
+
 function search() {
+    console.log("searching...")
     var query = encodeURIComponent(document.getElementById('query').value);
     if (query.length < 3 || query.length === 0) { 
         $("#search-results").html(
@@ -45,6 +49,10 @@ function search() {
         })
         .catch(error => console.error(error));
 }
+
+const debouncedSearch = debounce(search, 500);
+  
+document.getElementById('query').addEventListener('input', debouncedSearch);
 
 function attachClickHandler() {
     var searchResults = document.querySelectorAll('.search-result');

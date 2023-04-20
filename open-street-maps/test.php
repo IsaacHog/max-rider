@@ -37,8 +37,7 @@
         <form action="" method="get" id="search-form">
             <div class="row">
                 <div class="col-md-6 mb-3">
-                    <input type="text" class="form-control" id="query" name="query"
-                        placeholder="Location" oninput="search()">
+                    <input type="text" class="form-control" id="query" name="query" placeholder="Location">
                 </div>
             </div>
         </form>
@@ -47,7 +46,7 @@
     </div>
 
     <script src="create-map.js"></script>
-    <script src="search.js"></script>
+    <script type="module" src="search.js"></script>
 </body>
 
 </html>
