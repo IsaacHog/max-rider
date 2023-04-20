@@ -51,7 +51,7 @@ export async function displayRoute(startMarker, endMarker) {
 
 function drawRouteInfo(data) {
     console.log(data)
-    document.getElementById('route-distance-car').textContent = `:  ${(data.routes[0].segments[0].distance / 1000).toFixed(2)} km`;
+    document.getElementById('route-distance-car').textContent = `:  ${data.routes[0].segments[0].distance.toFixed(2)} km`;
     document.getElementById('route-duration-car').textContent = `:  ${formatDuration(data.routes[0].segments[0].duration)}`;
 }
 
