@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OpenStreetMaps Test</title>
     <?php include "../links_header.php"; ?>
-    <script src="search.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js"></script>
@@ -48,6 +47,7 @@
     </div>
 
     <script src="create-map.js"></script>
+    <script src="search.js"></script>
 </body>
 
 </html>
