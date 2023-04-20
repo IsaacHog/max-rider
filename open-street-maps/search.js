@@ -26,7 +26,7 @@ async function search(query, positionType) {
             </a> `).join("");
 
         $("#search-results").html(`
-            <div class="card mb-4">
+            <div class="card mb-3">
                 <div class="card-header">Address suggestion:</div>
                 <div class="list-group list-group-flush">${addressHtml}</div>
             </div> `);

@@ -1,4 +1,4 @@
-import { displayRoute } from "./display-route.js";
+import { displayRoute } from "./route.js";
 
 let startMarker = null;
 let endMarker = null;

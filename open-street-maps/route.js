@@ -14,7 +14,7 @@ export async function displayRoute(startMarker, endMarker) {
             },
             body: JSON.stringify({
                 coordinates: coordinates,
-                units: 'mi'
+                units: 'km'
             })
         });
 
@@ -41,8 +41,16 @@ export async function displayRoute(startMarker, endMarker) {
                 [data.bbox[3], data.bbox[2]]
             ]);
             map.fitBounds(sfBounds);
+
+            drawRouteInfo(data.routes[0].segments[0].distance)
         }
     } catch (error) {
         console.error(error);
     }
 }
+
+function drawRouteInfo(distance) {
+    const routeInfo = document.getElementById('route-info');
+    routeInfo.textContent = `Distance: ${distance} meters`;
+  }
+  

@@ -33,21 +33,39 @@
 
         </div>
     </nav>
-
     <div class="container mt-5">
-        <form action="" method="get" id="search-form">
-            <div class="row">
-                <div class="col-6 mb-3">
-                    <input type="text" class="form-control search-input" id="query-start" name="query-start" placeholder="Start location">
+        <div class="row mb-3">
+            <form action="" method="get" id="search-form" class="ps-0 pe-0">
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" class="form-control search-input" id="query-start" name="query-start"
+                            placeholder="Start location">
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="form-control search-input" id="query-end" name="query-end"
+                            placeholder="End location">
+                    </div>
                 </div>
-                <div class="col-6 mb-3">
-                    <input type="text" class="form-control search-input" id="query-end" name="query-end" placeholder="End location">
+            </form>
+        </div>
+
+        <div class="row">
+            <div id="search-results" class="col-12 d-flex justify-content-center"></div>
+        </div>
+
+        <div class="row mb-3">
+            <div id="mapid" style="height: 500px; width: 100%" class="col-12"></div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="card col-12">
+                <div class="card-body" id="route-info">
+                    Distance will be displayed here.
                 </div>
             </div>
-        </form>
-        <div id="search-results"></div>
-        <div id="mapid" style="height: 400px; width: 100%"></div>
+        </div>
     </div>
+
 
     <script src="create-map.js"></script>
     <script type="module" src="search.js"></script>
