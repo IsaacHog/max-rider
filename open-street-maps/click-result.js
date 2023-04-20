@@ -1,3 +1,5 @@
+import { displayRoute } from "./display-route.js";
+
 let startMarker = null;
 let endMarker = null;
 
@@ -44,14 +46,18 @@ export function attachClickHandler() {
       map.setView([lat, long], zoom);
 
       $("#search-results").html('');
+
+      if (startMarker !== null && endMarker !== null) {
+        displayRoute(startMarker, endMarker);
+      }
     });
   }
 }
 
 
 async function findAddress(lat, long, marker) {
-    const api = `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${long}&format=json`;
-    const response = await fetch(api);
-    const data = await response.json();
-    $(`#query-${marker}`).val(data.display_name);
+  const api = `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${long}&format=json`;
+  const response = await fetch(api);
+  const data = await response.json();
+  $(`#query-${marker}`).val(data.display_name);
 }
