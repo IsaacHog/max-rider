@@ -1,6 +1,5 @@
 function search() {
     var query = encodeURIComponent(document.getElementById('query').value);
-    console.log(query)
     if (query.length < 3 || query.length === 0) { 
         $("#search-results").html(
             `<div class="card">
@@ -13,14 +12,11 @@ function search() {
     }
 
     var searchUrl = `https://nominatim.openstreetmap.org/search?format=geojson&limit=5&street=${query}`;
-    console.log("Searching")
     fetch(searchUrl, { headers: { 'User-Agent': 'My Application' } })
         .then(response => response.json())
         .then(data => {
-            console.log(data)
             var addressHtml = '';
             data.features.forEach((element) => {
-                console.log(element)
                 addressHtml += `
                     <a href="#" class="list-group-item list-group-item-action" data-lat='${element.geometry.coordinates[1]}' data-lng='${element.geometry.coordinates[0]}'>
                         ${element.properties.display_name}
