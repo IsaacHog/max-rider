@@ -1,8 +1,4 @@
 <div class="container mt-5">
-    <div class="row">
-        <div id="search-results" class="col-12 d-flex justify-content-center"></div>
-    </div>
-
     <div class="row mb-3">
         <div id="mapid" style="height: 700px; width: 100%" class="col-12"></div>
     </div>

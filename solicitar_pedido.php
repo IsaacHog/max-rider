@@ -38,10 +38,14 @@
 
 
                 <div class="row">
-                    <input class="btn border border-1 rounded-5 text-start bg-white search-input" type="text"
-                        id="query-start" name="query-start" placeholder="Seleccionar punto de recogida">
-                    </input>
+                    <div class="position-relative w-100">
+                        <input type="text"
+                            class="btn border border-1 rounded-5 text-start bg-white search-input form-control"
+                            id="query-start" name="query-start" placeholder="Seleccionar punto de recogida">
+                        <ul class="list-group position-absolute w-100 bg-white" id="search-results" style="z-index:999"></ul>
+                    </div>
                 </div>
+
                 <div class="row">
                     <div class="row align-items-center">
                         <small class="form-text text-muted text-center fs-6">Crear un

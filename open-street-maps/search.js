@@ -5,14 +5,7 @@ import { attachClickHandler } from './click-result.js';
 async function search(query, positionType) {
     console.log("searching...");
     if (query.length < 3 || query.length === 0) {
-        $("#search-results").html(`
-            <div class="card">
-                <div class="card-header">Address:</div>
-                <div class="card-body">
-                    <p>No results</p>
-                </div>
-            </div>
-        `);
+        $("#search-results").html("");
         return;
     }
 
@@ -21,15 +14,18 @@ async function search(query, positionType) {
         const response = await fetch(searchUrl, { headers: { 'User-Agent': 'My Application' } });
         const data = await response.json();
         const addressHtml = data.features.map((element) => `
-            <a href="#" class="list-group-item list-group-item-action search-result" data-lat='${element.geometry.coordinates[1]}' data-long='${element.geometry.coordinates[0]}' data-position-type='${positionType}'>
+        <li class="list-group-item" data-lat="${element.geometry.coordinates[1]}" data-long="${element.geometry.coordinates[0]}" data-position-type="${positionType}">
+            <a href="#" class="d-block text-decoration-none text-dark py-2 search-result" 
+            data-lat="${element.geometry.coordinates[1]}" 
+            data-long="${element.geometry.coordinates[0]}" 
+            data-position-type="${positionType}">
                 ${element.properties.display_name}
-            </a> `).join("");
+            </a>
+        </li>
+      
+        `).join("");
 
-        $("#search-results").html(`
-            <div class="card mb-3">
-                <div class="card-header">Address suggestion:</div>
-                <div class="list-group list-group-flush">${addressHtml}</div>
-            </div> `);
+        $("#search-results").html(`${addressHtml}`);
 
         attachClickHandler();
     } catch (error) {
