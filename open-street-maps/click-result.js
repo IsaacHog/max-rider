@@ -14,7 +14,6 @@ export function attachClickHandler() {
       const positionType = $(this).data('position-type');
 
       localStorage.setItem(`${positionType}-marker`, JSON.stringify({ lat: lat, long: long, location: selectedLocation, positionType: positionType }));
-      console.log(localStorage.getItem("start-marker"))
       $("#query-" + positionType).val(selectedLocation);
 
       // remove previous marker for the corresponding input type
