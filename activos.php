@@ -111,10 +111,7 @@
                 </div>
                 <div class="col text-end">
                   <!-- content of the fourth column in first row -->
-                  <div class="rounded-3 ml-auto bg-primary d-flex justify-content-center align-items-center"
-                        style="width: 33px; height: 32px;">
-                        <i class="bi bi-arrow-right fs-3 text-primary text-align-end me-3"></i>
-                    </div>
+                  <i class="bi bi-arrow-right fs-3 text-primary text-align-end me-3"></i>
                 </div>
             </div>
             <hr>
