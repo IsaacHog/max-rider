@@ -151,6 +151,23 @@
                     </div>
                 </div>
             </div>
+
+            <!--Solicitar-->
+            <div class="container border border-1 border-secondary-subtle rounded-4 mb-4 p-3">
+                <div class="row align-items-center mb-3">
+                    <div class="col-2 pe-0 col-xxl-1">
+                        <div class="rounded-3 ml-auto d-flex justify-content-center align-items-center"
+                            style="width: 33px; height: 32px;">
+                            <i class="bi bi-cash-coin fs-5 text-primary"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-10 ps-0 col-xxl-11 ps-xxl-4">
+                        <p class="mb-0" style="color:grey">Total (sin IVA):</p>
+                        <p class="mb-0">7,20€</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Google maps -->
