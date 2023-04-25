@@ -4,14 +4,12 @@ export async function displayRoute(startMarker, endMarker) {
             [startMarker.getLatLng().lng, startMarker.getLatLng().lat],
             [endMarker.getLatLng().lng, endMarker.getLatLng().lat]
         ];
-        console.log(coordinates)
     }
     catch {
         var coordinates = [
             [startMarker.long, startMarker.lat],
             [endMarker.long, endMarker.lat]
         ];
-        console.log(coordinates)
     }
 
     try {

@@ -33,7 +33,7 @@
                 </div>
 
                 <div class="row">
-                    <p class="mb-1">Alfredo Paez - Mi Tienda Restaurante</p>
+                    <p class="mb-1">Name - Company</p>
                     <p id="address-start" name="address-start">Carrer de Bassegoda, 5, 08028, Varcelona</p>
                 </div>
 
@@ -53,7 +53,7 @@
                 </div>
 
                 <div class="row">
-                    <p class="mb-1">Carlos Rojas - Restaurante Entrega (+34 666 666 666)</p>
+                    <p class="mb-1">Name - Company (phone number)</p>
                     <p id="address-end" name="address-end">Carrer de Josep Campreciós, 36, 08028, Varcelona</p>
                 </div>
 
