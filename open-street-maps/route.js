@@ -1,8 +1,18 @@
 export async function displayRoute(startMarker, endMarker) {
-    const coordinates = [
-        [startMarker.getLatLng().lng, startMarker.getLatLng().lat],
-        [endMarker.getLatLng().lng, endMarker.getLatLng().lat]
-    ];
+    try { // Ugly try catch to work for solicitar-on-load.js
+        var coordinates = [
+            [startMarker.getLatLng().lng, startMarker.getLatLng().lat],
+            [endMarker.getLatLng().lng, endMarker.getLatLng().lat]
+        ];
+        console.log(coordinates)
+    }
+    catch {
+        var coordinates = [
+            [startMarker.long, startMarker.lat],
+            [endMarker.long, endMarker.lat]
+        ];
+        console.log(coordinates)
+    }
 
     try {
         const response = await fetch('https://api.openrouteservice.org/v2/directions/driving-car', {

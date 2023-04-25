@@ -1,3 +1,5 @@
+import { displayRoute } from "./open-street-maps/route.js"
+
 window.onload = function () {
     const startMarker = JSON.parse(localStorage.getItem('start-marker'));
     const endMarker = JSON.parse(localStorage.getItem('end-marker'));
@@ -21,4 +23,6 @@ window.onload = function () {
 
     $("#address-start").text(startMarker.location);
     $("#address-end").text(endMarker.location);
+
+    displayRoute(startMarker, endMarker)
 };
