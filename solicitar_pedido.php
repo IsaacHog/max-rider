@@ -50,7 +50,7 @@
                 <div class="row">
                     <div class="row align-items-center">
                         <small class="form-text text-muted text-center fs-6">Crear un
-                            <a href="#">nuevo contacto</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal">nuevo contacto</a>
                         </small>
                     </div>
                 </div>
@@ -173,7 +173,7 @@
                         </div>
                     </div>
                     <div class="col-2 col-xxl-1 d-flex justify-content-end">
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Solicitar</button>
+                        <button class="btn btn-primary">Solicitar</button>
                     </div>
                 </div>
             </div>
@@ -243,6 +243,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
 
         <!-- Google maps -->
