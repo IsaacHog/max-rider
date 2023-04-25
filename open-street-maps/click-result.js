@@ -52,7 +52,7 @@ export function attachClickHandler() {
         }
       });
 
-      var zoom = 5; // 13 default
+      var zoom = 13;
       map.setView([lat, long], zoom);
 
       $("#search-results-start").html('');
