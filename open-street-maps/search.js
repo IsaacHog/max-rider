@@ -43,3 +43,14 @@ document.querySelectorAll('.search-input').forEach(function (input) {
 });
 
 
+
+// Clear input field buttons
+$(".btn-clear-start").on("click", function() {
+    $("#query-start").val("");
+});
+
+$(".btn-clear-end").on("click", function() {
+    $("#query-end").val("");
+});
+
+
