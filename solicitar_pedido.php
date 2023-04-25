@@ -19,7 +19,7 @@
         <div class="col-6 col-lg-5 col-xl-4 col-xxl-3 mt-5">
 
             <!-- Recogida -->
-            <div class="container border border-1 border-secondary-subtle rounded-4 mb-4 p-3">
+            <div class="container border border-1 border-secondary-subtle rounded-4 mb-4 p-3 bg-white">
                 <div class="row align-items-center mb-3">
                     <div class="col-2 pe-0 col-xxl-1">
                         <div class="rounded-3 ml-auto bg-primary d-flex justify-content-center align-items-center"
@@ -57,7 +57,7 @@
             </div>
 
             <!-- Entrega -->
-            <div class="container border border-1 border-secondary-subtle rounded-4 mb-4 p-3">
+            <div class="container border border-1 border-secondary-subtle rounded-4 mb-4 p-3 bg-white">
                 <div class="row align-items-center mb-3">
                     <div class="col-2 pe-0 col-xxl-1">
                         <div class="rounded-3 ml-auto bg-primary d-flex justify-content-center align-items-center"
@@ -126,7 +126,7 @@
             </div>
 
             <!-- Horario -->
-            <div class="container border border-1 border-secondary-subtle rounded-4 mb-4 p-3">
+            <div class="container border border-1 border-secondary-subtle rounded-4 mb-4 p-3 bg-white">
                 <div class="row align-items-center mb-3">
                     <div class="col-2 pe-0 col-xxl-1">
                         <div class="rounded-3 ml-auto bg-primary d-flex justify-content-center align-items-center"
@@ -155,7 +155,7 @@
             </div>
 
             <!--Solicitar-->
-            <div class="container border border-1 border-secondary-subtle mb-4 p-3">
+            <div class="container border border-1 border-secondary-subtle mb-4 p-3 bg-white">
                 <div class="row align-items-center">
                     <div class="col-2 pe-0 col-xxl-1">
                         <div class="rounded-3 ml-auto d-flex justify-content-center align-items-center" style="width: 33px; height: 32px;">
@@ -173,7 +173,7 @@
                         </div>
                     </div>
                     <div class="col-2 col-xxl-1 d-flex justify-content-end">
-                        <button class="btn btn-primary">Solicitar</button>
+                        <a class="btn btn-primary" href="solicitar.php">Solicitar</a>
                     </div>
                 </div>
             </div>
