@@ -25,6 +25,9 @@ export async function displayRoute(startMarker, endMarker) {
         const data = await response.json();
         const encodedRoutes = [data.routes[0].geometry];
 
+        // Remove existing route
+        removeRoute();
+
         for (const encoded of encodedRoutes) {
             const coordinates = L.Polyline.fromEncoded(encoded).getLatLngs();
             L.polyline(coordinates, {
@@ -48,8 +51,15 @@ export async function displayRoute(startMarker, endMarker) {
     }
 }
 
+function removeRoute() {
+    map.eachLayer(function (layer) {
+        if (layer instanceof L.Polyline && layer.options.id === 'route') {
+            map.removeLayer(layer);
+        }
+    });
+}
+
 function drawRouteInfo(data) {
-    console.log(data)
     document.getElementById('route-distance-car').textContent = `:  ${data.routes[0].segments[0].distance.toFixed(2)} km`;
     document.getElementById('route-duration-car').textContent = `:  ${formatDuration(data.routes[0].segments[0].duration)}`;
 }

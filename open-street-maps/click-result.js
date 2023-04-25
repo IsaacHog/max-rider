@@ -45,6 +45,9 @@ export function attachClickHandler() {
           draggable: 'true'
         });
         map.panTo(new L.latLng(position.lat, position.lng));
+        if (startMarker !== null && endMarker !== null) {
+          displayRoute(startMarker, endMarker);
+        }
       });
 
       var zoom = 5; // 13 default
@@ -62,6 +65,7 @@ export function attachClickHandler() {
 
 
 async function findAddress(lat, long, marker) {
+  console.log("start")
   const api = `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${long}&format=json`;
   const response = await fetch(api);
   const data = await response.json();
