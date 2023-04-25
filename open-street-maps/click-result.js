@@ -50,7 +50,8 @@ export function attachClickHandler() {
       var zoom = 5; // 13 default
       map.setView([lat, long], zoom);
 
-      $("#search-results").html('');
+      $("#search-results-start").html('');
+      $("#search-results-end").html('');
 
       if (startMarker !== null && endMarker !== null) {
         displayRoute(startMarker, endMarker);

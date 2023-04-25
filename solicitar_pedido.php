@@ -42,7 +42,7 @@
                         <input type="text"
                             class="btn border border-1 rounded-5 text-start bg-white search-input form-control"
                             id="query-start" name="query-start" placeholder="Seleccionar punto de recogida">
-                        <ul class="list-group position-absolute w-100 bg-white" id="search-results" style="z-index:999"></ul>
+                        <ul class="list-group position-absolute w-100 bg-white" id="search-results-start" style="z-index:999"></ul>
                     </div>
                 </div>
 
@@ -76,9 +76,10 @@
                             <span class="input-group-text bg-transparent border-0">
                                 <i class="bi bi-search text-primary fs-5"></i>
                             </span>
-                        </div>
+                        </div> 
                         <input class="form-control border-0 search-input" placeholder="Buscar una dirección"
                             id="query-end" name="query-end">
+                        <ul class="list-group position-absolute w-100 bg-white" id="search-results-end" style="z-index:999"></ul>
                     </div>
                 </div>
 

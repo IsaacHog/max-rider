@@ -36,6 +36,5 @@ body {
 }
 
 .search-result:hover {
-  background-color: green !important;
-  color: #0d6efd;
+  background-color: #ebebeb  !important;
 }

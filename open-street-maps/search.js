@@ -25,8 +25,7 @@ async function search(query, positionType) {
       
         `).join("");
 
-        $("#search-results").html(`${addressHtml}`);
-
+        positionType === "start" ? $("#search-results-start").html(`${addressHtml}`) : $("#search-results-end").html(`${addressHtml}`);
         attachClickHandler();
     } catch (error) {
         console.error(error);
