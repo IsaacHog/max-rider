@@ -34,3 +34,7 @@ body {
 .navbar-brand, .nav-link {
   font-family: 'Visby CF', sans-serif;
 }
+
+.search-result:hover {
+  background-color: #ebebeb  !important;
+}
