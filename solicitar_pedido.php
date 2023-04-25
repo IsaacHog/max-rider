@@ -247,7 +247,7 @@
         </div>
 
         <!-- Google maps -->
-        <div class="col-6 col-lg-7 col-xl-8 col-xxl-9 mt-3">
+        <div class="col-6 col-lg-7 col-xl-8 col-xxl-9">
             <?php include "open-street-maps/maps.php"; ?>
         </div>
     </div>

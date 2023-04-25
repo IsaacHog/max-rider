@@ -55,6 +55,22 @@
                     <p class="mb-1">Carlos Rojas - Restaurante Entrega (+34 666 666 666)</p>
                     <p>Carrer de Josep Campreciós, 36, 08028, Varcelona</p>
                 </div>
+
+                <div class="d-flex flex-row bg-light rounded-4">
+                    <div class="container col-2">
+                        <i class="bi bi-box-seam fs-2 text-primary"></i>
+                    </div>
+                    <div class="container">
+                        <p class="mb-1">ID del pedido: <b>2837462</b></p>
+                        <p>Tamaño del paquete: <b>Pequeño</b></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row align-items-center">
+                        <a class="text-center fs-6 text-danger text-decoration-none" href="#" data-bs-toggle="modal" data-bs-target="#myModal">Cancelar envío</a>
+                    </div>
+                </div>
+
             </div>
 
             <!-- Horario -->
@@ -156,7 +172,7 @@
         </div>
 
         <!-- Google maps -->
-        <div class="col-6 col-lg-7 col-xl-8 col-xxl-9 mt-3">
+        <div class="col-6 col-lg-7 col-xl-8 col-xxl-9">
             <?php include "open-street-maps/maps.php"; ?>
         </div>
     </div>
