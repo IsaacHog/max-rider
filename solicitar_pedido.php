@@ -178,20 +178,67 @@
                 </div>
             </div>
 
-            <!-- Modal -->
+            <!-- pop up -->
             <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
+                <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Confirmar solicitud</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
+                        <!--Pop up body-->
                         <div class="modal-body">
-                            ¿Está seguro que desea solicitar este producto?
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                            <button type="button" class="btn btn-primary">Solicitar</button>
+                            <div class="container rounded-5 p-1">
+                                <div class="row align-items-center mb-3">
+                                    <div class="col-2 pe-0 col-xxl-1">
+                                        <div class="rounded-3 ml-auto bg-primary d-flex justify-content-center align-items-center"
+                                            style="width: 33px; height: 32px;">
+                                            <i class="bi bi-person-plus-fill fs-5 text-white"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-10 ps-0 col-xxl-11 ps-xxl-4">
+                                        <h5 class="mb-0 fw-bold">Nuevo punto de recogida</h5>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-2">
+                                    <div class="position-relative w-100">
+                                        <input type="text"
+                                            class="btn border border-1 rounded-5 text-start bg-white search-input form-control"
+                                            id="query-end" name="query-end" placeholder="Buscar una dirección">
+                                        <button type="button"
+                                            class="btn btn-clear-end position-absolute top-50 end-0 translate-middle-y">
+                                            <i class="bi bi-x"></i>
+                                        </button>
+                                        <ul class="list-group position-absolute w-100 bg-white" id="search-results-end"
+                                            style="z-index:999"></ul>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12 mb-3">
+                                        <input class="form-control border-1 rounded-5" placeholder="Piso, puerta o información adicional">
+                                    </div>
+                                    <div class="col-6 mb-3">
+                                        <input class="form-control border-1 rounded-5" placeholder="Nombre">
+                                    </div>
+                                    <div class="col-6 mb-3">
+                                        <input class="form-control border-1 rounded-5" placeholder="Apellidos">
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <input class="form-control border-1 rounded-5" placeholder="Compañía">
+                                    </div>
+                                    <div class="col-6">
+                                        <input class="form-control border-1 rounded-5" placeholder="Teléfono">
+                                    </div>
+                                    <div class="col-6">
+                                        <input class="form-control border-1 rounded-5" placeholder="Email">
+                                    </div>
+                                    <div class="col-6">
+
+                                    </div>
+                                    <div class="col-6 d-flex justify-content-end mt-3">
+                                      <button class="btn btn-primary">Crear contacto</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
