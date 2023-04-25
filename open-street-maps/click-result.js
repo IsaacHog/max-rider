@@ -9,9 +9,11 @@ export function attachClickHandler() {
     $(searchResults[i]).one('click', function () {
       var lat = this.dataset.lat;
       var long = this.dataset.long;
+
       const selectedLocation = $(this).text().trim(); // trim whitespace
       const positionType = $(this).data('position-type');
 
+      localStorage.setItem(`${positionType}-marker`, JSON.stringify({ lat: lat, long: long, location: selectedLocation, positionType: positionType }));
       $("#query-" + positionType).val(selectedLocation);
 
       // remove previous marker for the corresponding input type
@@ -65,7 +67,6 @@ export function attachClickHandler() {
 
 
 async function findAddress(lat, long, marker) {
-  console.log("start")
   const api = `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${long}&format=json`;
   const response = await fetch(api);
   const data = await response.json();

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script type="text/javascript" src="https://rawgit.com/jieter/Leaflet.encoded/master/Polyline.encoded.js"></script>
+    <script src="solicitar-on-load.js"></script>
 </head>
 
 <body class="bg-light">
@@ -33,7 +34,7 @@
 
                 <div class="row">
                     <p class="mb-1">Alfredo Paez - Mi Tienda Restaurante</p>
-                    <p>Carrer de Bassegoda, 5, 08028, Varcelona</p>
+                    <p id="address-start" name="address-start">Carrer de Bassegoda, 5, 08028, Varcelona</p>
                 </div>
 
                 <hr class="mt-1">
@@ -53,7 +54,7 @@
 
                 <div class="row">
                     <p class="mb-1">Carlos Rojas - Restaurante Entrega (+34 666 666 666)</p>
-                    <p>Carrer de Josep Campreciós, 36, 08028, Varcelona</p>
+                    <p id="address-end" name="address-end">Carrer de Josep Campreciós, 36, 08028, Varcelona</p>
                 </div>
 
                 <div class="d-flex flex-row bg-ligt rounded-4">
