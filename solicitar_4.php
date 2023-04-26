@@ -90,9 +90,8 @@
                     </div>
 
                     <div class="col d-flex justify-content-end">
-                        <div class="bg-light rounded-pill p-2"
-                            style="width: 70px;">
-                            <p class="fw-bold text-center m-0">Ahora</p>
+                        <div class="bg-light rounded-pill p-2">
+                            <p class="fw-bold text-center m-0">Paquete entregado</p>
                         </div>
                     </div>
                 </div>
@@ -129,6 +128,51 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <!-- Total / factura -->
+            <div class="container border border-1 border-secondary-subtle rounded-4 mb-4 p-3 bg-white">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-muted">Importe</p>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <p class="text-muted">7,20€</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-muted">IVA</p>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <p class="text-muted">1,20€</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-black fw-bold">Total</p>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <p class="text-black fw-bold">8,40€</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                    <div class="col-7">
+                        <button class="btn btn-light rounded-5 fw-bold" href="#">
+                            <i class="bi bi-file-earmark-text text-primary fs-4"></i>
+                            Solicitar factura
+                        </button>
+                    </div>
+                    <div class="col-5 d-flex justify-content-end align-items-center">
+                        <p class="text-muted mb-0">Abrir una incidencia</p>
+                    </div>
+                </div>
+
             </div>
 
             <!-- pop up -->

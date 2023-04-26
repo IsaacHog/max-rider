@@ -90,9 +90,10 @@
                     </div>
 
                     <div class="col d-flex justify-content-end">
-                        <div class="bg-light rounded-pill p-2"
-                            style="width: 70px;">
-                            <p class="fw-bold text-center m-0">Ahora</p>
+                        <div class="bg-light rounded-pill p-2">
+                            <p class="fw-bold text-center m-0">
+                                Entrega en <span class="text-primary" style="display: inline;">13 minutos</span>
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -90,8 +90,7 @@
                     </div>
 
                     <div class="col d-flex justify-content-end">
-                        <div class="bg-light rounded-pill p-2"
-                            style="width: 70px;">
+                        <div class="bg-light rounded-pill p-2">
                             <p class="fw-bold text-center m-0">Ahora</p>
                         </div>
                     </div>
