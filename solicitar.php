@@ -119,7 +119,7 @@
                                         <i class="bi bi-trash3"></i>
                                         Borrar solicitud
                                     </button>
-                                    <button class="col-5 btn">
+                                    <button class="col-3 btn text-black fw-bold">
                                         Cancelar
                                     </button>
                                 </div>
@@ -128,14 +128,13 @@
                     </div>
                 </div>
             </div>
+
         </div>
 
-    </div>
-
-    <!-- Google maps -->
-    <div class="col-6 col-lg-7 col-xl-8 col-xxl-9">
-        <?php include "open-street-maps/maps.php"; ?>
-    </div>
+        <!-- Google maps -->
+        <div class="col-6 col-lg-7 col-xl-8 col-xxl-9">
+            <?php include "open-street-maps/maps.php"; ?>
+        </div>
     </div>
 
 </body>
