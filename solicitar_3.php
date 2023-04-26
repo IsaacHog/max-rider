@@ -13,7 +13,7 @@
 </head>
 
 <body class="bg-light">
-    <?php include("navbar.php"); ?>
+    <?php include("navbar-solicitar.php"); ?>
 
     <div class="container-fluid row">
         <!-- Input fields -->
