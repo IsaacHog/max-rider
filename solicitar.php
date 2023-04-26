@@ -105,8 +105,11 @@
                         <!--Pop up body-->
                         <div class="modal-body">
                             <div class="container rounded-5 p-1">
-                                <div class="row mb-3">
-                                    <h5 class="mb-0 fw-bold">Eliminar solicitud de pedido</h5>
+                                <div class="row align-items-center mb-3">
+                                    <h5 class="col-11 mb-0 fw-bold">Eliminar solicitud de pedido</h5>
+                                    <button class="col-1 btn border-0 d-flex justify-content-center align-items-center">
+                                        <i class="bi bi-x fs-3"></i>
+                                    </button>
                                 </div>
 
                                 <div class="row">
@@ -114,12 +117,13 @@
                                         repartidor estas a
                                         tiempo. Solo tienes que confirmar la cancelación.</p>
                                 </div>
+
                                 <div class="row mt-3 justify-content-center">
                                     <button class="col-5 btn btn-danger">
                                         <i class="bi bi-trash3"></i>
                                         Borrar solicitud
                                     </button>
-                                    <button class="col-3 btn text-black fw-bold">
+                                    <button class="col-3 btn text-black fw-bold border-0">
                                         Cancelar
                                     </button>
                                 </div>
