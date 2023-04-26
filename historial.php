@@ -64,241 +64,7 @@
                   <p class="">XX/XX/XXXX</p>
                 </div>
                 <div class="col">
-                  <p class="">Pendiente</p>
-                </div>
-                <div class="col">
-                  <p class="">2423423</p>
-                </div>
-                <div class="col">
-                  <p class="">9758234</p>
-                </div>
-                <div class="col">
-                  <p class="">11:30h</p>
-                </div>
-                <div class="col-3">
-                  <p class="">Carrer de Josep Campreciós, 36, 08028, Barcelona</p>
-                </div>
-                <div class="col">
-                    <div class="rounded-3 ml-auto bg-secondary d-flex justify-content-center align-items-center"
-                        style="width: 33px; height: 32px;">
-                        <i class="bi bi-download text-primary"></i>
-                    </div>
-                </div>
-                <div class="col">
-                  <p class="">7,50€</p>
-                </div>
-                <div class="col text-end">
-                  <i class="bi bi-arrow-right fs-3 text-primary me-3"></i>
-                </div>
-            </div>
-            <hr>
-            <div class="row ms-3 ">
-                <div class="col-1">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                        <label class="form-check-label" for="inlineCheckbox2"></label>
-                    </div>
-                </div>
-                <div class="col">
-                  <p class="">XX/XX/XXXX</p>
-                </div>
-                <div class="col">
-                  <p class="">Pendiente</p>
-                </div>
-                <div class="col">
-                  <p class="">2423423</p>
-                </div>
-                <div class="col">
-                  <p class="">9758234</p>
-                </div>
-                <div class="col">
-                  <p class="">11:30h</p>
-                </div>
-                <div class="col-3">
-                  <p class="">Carrer de Josep Campreciós, 36, 08028, Barcelona</p>
-                </div>
-                <div class="col">
-                    <div class="rounded-3 ml-auto bg-secondary d-flex justify-content-center align-items-center"
-                        style="width: 33px; height: 32px;">
-                        <i class="bi bi-download text-primary"></i>
-                    </div>
-                </div>
-                <div class="col">
-                  <p class="">7,50€</p>
-                </div>
-                <div class="col text-end">
-                  <i class="bi bi-arrow-right fs-3 text-primary me-3"></i>
-                </div>
-            </div>
-            <hr>
-            <div class="row ms-3 ">
-                <div class="col-1">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                        <label class="form-check-label" for="inlineCheckbox2"></label>
-                    </div>
-                </div>
-                <div class="col">
-                  <p class="">XX/XX/XXXX</p>
-                </div>
-                <div class="col">
-                  <p class="">Pendiente</p>
-                </div>
-                <div class="col">
-                  <p class="">2423423</p>
-                </div>
-                <div class="col">
-                  <p class="">9758234</p>
-                </div>
-                <div class="col">
-                  <p class="">11:30h</p>
-                </div>
-                <div class="col-3">
-                  <p class="">Carrer de Josep Campreciós, 36, 08028, Barcelona</p>
-                </div>
-                <div class="col">
-                    <div class="rounded-3 ml-auto bg-secondary d-flex justify-content-center align-items-center"
-                        style="width: 33px; height: 32px;">
-                        <i class="bi bi-download text-primary"></i>
-                    </div>
-                </div>
-                <div class="col">
-                  <p class="">7,50€</p>
-                </div>
-                <div class="col text-end">
-                  <i class="bi bi-arrow-right fs-3 text-primary me-3"></i>
-                </div>
-            </div>
-            <hr>
-            <div class="row ms-3 ">
-                <div class="col-1">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                        <label class="form-check-label" for="inlineCheckbox2"></label>
-                    </div>
-                </div>
-                <div class="col">
-                  <p class="">XX/XX/XXXX</p>
-                </div>
-                <div class="col">
-                  <p class="">Pendiente</p>
-                </div>
-                <div class="col">
-                  <p class="">2423423</p>
-                </div>
-                <div class="col">
-                  <p class="">9758234</p>
-                </div>
-                <div class="col">
-                  <p class="">11:30h</p>
-                </div>
-                <div class="col-3">
-                  <p class="">Carrer de Josep Campreciós, 36, 08028, Barcelona</p>
-                </div>
-                <div class="col">
-                    <div class="rounded-3 ml-auto bg-secondary d-flex justify-content-center align-items-center"
-                        style="width: 33px; height: 32px;">
-                        <i class="bi bi-download text-primary"></i>
-                    </div>
-                </div>
-                <div class="col">
-                  <p class="">7,50€</p>
-                </div>
-                <div class="col text-end">
-                  <i class="bi bi-arrow-right fs-3 text-primary me-3"></i>
-                </div>
-            </div>
-            <hr>
-            <div class="row ms-3 ">
-                <div class="col-1">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                        <label class="form-check-label" for="inlineCheckbox2"></label>
-                    </div>
-                </div>
-                <div class="col">
-                  <p class="">XX/XX/XXXX</p>
-                </div>
-                <div class="col">
-                  <p class="">Pendiente</p>
-                </div>
-                <div class="col">
-                  <p class="">2423423</p>
-                </div>
-                <div class="col">
-                  <p class="">9758234</p>
-                </div>
-                <div class="col">
-                  <p class="">11:30h</p>
-                </div>
-                <div class="col-3">
-                  <p class="">Carrer de Josep Campreciós, 36, 08028, Barcelona</p>
-                </div>
-                <div class="col">
-                    <div class="rounded-3 ml-auto bg-secondary d-flex justify-content-center align-items-center"
-                        style="width: 33px; height: 32px;">
-                        <i class="bi bi-download text-primary"></i>
-                    </div>
-                </div>
-                <div class="col">
-                  <p class="">7,50€</p>
-                </div>
-                <div class="col text-end">
-                  <i class="bi bi-arrow-right fs-3 text-primary me-3"></i>
-                </div>
-            </div>
-            <hr>
-            <div class="row ms-3 ">
-                <div class="col-1">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                        <label class="form-check-label" for="inlineCheckbox2"></label>
-                    </div>
-                </div>
-                <div class="col">
-                  <p class="">XX/XX/XXXX</p>
-                </div>
-                <div class="col">
-                  <p class="">Pendiente</p>
-                </div>
-                <div class="col">
-                  <p class="">2423423</p>
-                </div>
-                <div class="col">
-                  <p class="">9758234</p>
-                </div>
-                <div class="col">
-                  <p class="">11:30h</p>
-                </div>
-                <div class="col-3">
-                  <p class="">Carrer de Josep Campreciós, 36, 08028, Barcelona</p>
-                </div>
-                <div class="col">
-                    <div class="rounded-3 ml-auto bg-secondary d-flex justify-content-center align-items-center"
-                        style="width: 33px; height: 32px;">
-                        <i class="bi bi-download text-primary"></i>
-                    </div>
-                </div>
-                <div class="col">
-                  <p class="">7,50€</p>
-                </div>
-                <div class="col text-end">
-                  <i class="bi bi-arrow-right fs-3 text-primary me-3"></i>
-                </div>
-            </div>
-            <hr>
-            <div class="row ms-3 ">
-                <div class="col-1">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                        <label class="form-check-label" for="inlineCheckbox2"></label>
-                    </div>
-                </div>
-                <div class="col">
-                  <p class="">XX/XX/XXXX</p>
-                </div>
-                <div class="col">
-                  <p class="">Pendiente</p>
+                  <p class="">Entregado</p>
                 </div>
                 <div class="col">
                   <p class="">2423423</p>
@@ -314,7 +80,241 @@
                 </div>
                 <div class="col">
                     <div class="rounded-3 ml-auto d-flex justify-content-center align-items-center"
-                        style="width: 33px; height: 32px; backgroundcolor:grey">
+                        style="width: 33px; height: 32px; background-color: #F3F2F6;">
+                        <i class="bi bi-download text-primary"></i>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="">7,50€</p>
+                </div>
+                <div class="col text-end">
+                  <i class="bi bi-arrow-right fs-3 text-primary me-3"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="row ms-3 ">
+                <div class="col-1">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2"></label>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="">XX/XX/XXXX</p>
+                </div>
+                <div class="col">
+                  <p class="">Entregado</p>
+                </div>
+                <div class="col">
+                  <p class="">2423423</p>
+                </div>
+                <div class="col">
+                  <p class="">9758234</p>
+                </div>
+                <div class="col">
+                  <p class="">11:30h</p>
+                </div>
+                <div class="col-3">
+                  <p class="">Carrer de Josep Campreciós, 36, 08028, Barcelona</p>
+                </div>
+                <div class="col">
+                    <div class="rounded-3 ml-auto  d-flex justify-content-center align-items-center"
+                        style="width: 33px; height: 32px; background-color: #F3F2F6;">
+                        <i class="bi bi-download text-primary"></i>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="">7,50€</p>
+                </div>
+                <div class="col text-end">
+                  <i class="bi bi-arrow-right fs-3 text-primary me-3"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="row ms-3 ">
+                <div class="col-1">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2"></label>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="">XX/XX/XXXX</p>
+                </div>
+                <div class="col">
+                  <p class="">Entregado</p>
+                </div>
+                <div class="col">
+                  <p class="">2423423</p>
+                </div>
+                <div class="col">
+                  <p class="">9758234</p>
+                </div>
+                <div class="col">
+                  <p class="">11:30h</p>
+                </div>
+                <div class="col-3">
+                  <p class="">Carrer de Josep Campreciós, 36, 08028, Barcelona</p>
+                </div>
+                <div class="col">
+                    <div class="rounded-3 ml-auto  d-flex justify-content-center align-items-center"
+                        style="width: 33px; height: 32px; background-color: #F3F2F6;">
+                        <i class="bi bi-download text-primary"></i>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="">7,50€</p>
+                </div>
+                <div class="col text-end">
+                  <i class="bi bi-arrow-right fs-3 text-primary me-3"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="row ms-3 ">
+                <div class="col-1">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2"></label>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="">XX/XX/XXXX</p>
+                </div>
+                <div class="col">
+                  <p class="">Entregado</p>
+                </div>
+                <div class="col">
+                  <p class="">2423423</p>
+                </div>
+                <div class="col">
+                  <p class="">9758234</p>
+                </div>
+                <div class="col">
+                  <p class="">11:30h</p>
+                </div>
+                <div class="col-3">
+                  <p class="">Carrer de Josep Campreciós, 36, 08028, Barcelona</p>
+                </div>
+                <div class="col">
+                    <div class="rounded-3 ml-auto  d-flex justify-content-center align-items-center"
+                        style="width: 33px; height: 32px; background-color: #F3F2F6;">
+                        <i class="bi bi-download text-primary"></i>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="">7,50€</p>
+                </div>
+                <div class="col text-end">
+                  <i class="bi bi-arrow-right fs-3 text-primary me-3"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="row ms-3 ">
+                <div class="col-1">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2"></label>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="">XX/XX/XXXX</p>
+                </div>
+                <div class="col">
+                  <p class="">Entregado</p>
+                </div>
+                <div class="col">
+                  <p class="">2423423</p>
+                </div>
+                <div class="col">
+                  <p class="">9758234</p>
+                </div>
+                <div class="col">
+                  <p class="">11:30h</p>
+                </div>
+                <div class="col-3">
+                  <p class="">Carrer de Josep Campreciós, 36, 08028, Barcelona</p>
+                </div>
+                <div class="col">
+                    <div class="rounded-3 ml-auto  d-flex justify-content-center align-items-center"
+                        style="width: 33px; height: 32px; background-color: #F3F2F6;">
+                        <i class="bi bi-download text-primary"></i>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="">7,50€</p>
+                </div>
+                <div class="col text-end">
+                  <i class="bi bi-arrow-right fs-3 text-primary me-3"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="row ms-3 ">
+                <div class="col-1">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2"></label>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="">XX/XX/XXXX</p>
+                </div>
+                <div class="col">
+                  <p class="">Entregado</p>
+                </div>
+                <div class="col">
+                  <p class="">2423423</p>
+                </div>
+                <div class="col">
+                  <p class="">9758234</p>
+                </div>
+                <div class="col">
+                  <p class="">11:30h</p>
+                </div>
+                <div class="col-3">
+                  <p class="">Carrer de Josep Campreciós, 36, 08028, Barcelona</p>
+                </div>
+                <div class="col">
+                    <div class="rounded-3 ml-auto  d-flex justify-content-center align-items-center"
+                        style="width: 33px; height: 32px; background-color: #F3F2F6;">
+                        <i class="bi bi-download text-primary"></i>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="">7,50€</p>
+                </div>
+                <div class="col text-end">
+                  <i class="bi bi-arrow-right fs-3 text-primary me-3"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="row ms-3 ">
+                <div class="col-1">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2"></label>
+                    </div>
+                </div>
+                <div class="col">
+                  <p class="">XX/XX/XXXX</p>
+                </div>
+                <div class="col">
+                  <p class="">Entregado</p>
+                </div>
+                <div class="col">
+                  <p class="">2423423</p>
+                </div>
+                <div class="col">
+                  <p class="">9758234</p>
+                </div>
+                <div class="col">
+                  <p class="">11:30h</p>
+                </div>
+                <div class="col-3">
+                  <p class="">Carrer de Josep Campreciós, 36, 08028, Barcelona</p>
+                </div>
+                <div class="col">
+                    <div class="rounded-3 ml-auto d-flex justify-content-center align-items-center"
+                        style="width: 33px; height: 32px; background-color: #F3F2F6; backgroundcolor:grey">
                         <i class="bi bi-download text-primary" style="backgroundcolor:grey"></i>
                     </div>
                 </div>
@@ -337,7 +337,7 @@
                   <p class="">XX/XX/XXXX</p>
                 </div>
                 <div class="col">
-                  <p class="">Pendiente</p>
+                  <p class="">Entregado</p>
                 </div>
                 <div class="col">
                   <p class="">2423423</p>
@@ -352,8 +352,8 @@
                   <p class="">Carrer de Josep Campreciós, 36, 08028, Barcelona</p>
                 </div>
                 <div class="col">
-                    <div class="rounded-3 ml-auto bg-secondary d-flex justify-content-center align-items-center"
-                        style="width: 33px; height: 32px;">
+                    <div class="rounded-3 ml-auto  d-flex justify-content-center align-items-center"
+                        style="width: 33px; height: 32px; background-color: #F3F2F6;">
                         <i class="bi bi-download text-primary"></i>
                     </div>
                 </div>
