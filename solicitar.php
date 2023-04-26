@@ -91,8 +91,7 @@
                     <div class="row mt-5 mb-5">
                         <div class="col-12 d-flex align-items-center justify-content-center">
                             <div class="spinner-border me-2" role="status"></div>
-                            <a class="text-center fs-6 text-black text-decoration-none ms-3" href="#"
-                                data-bs-toggle="modal" data-bs-target="#myModal">Buscando un repartidor para ti</a>
+                            <a class="text-center fs-6 text-black text-decoration-none ms-3" href="#">Buscando un repartidor para ti</a>
                         </div>
                     </div>
                 </div>
