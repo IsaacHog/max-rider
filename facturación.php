@@ -21,8 +21,8 @@
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid flex-column">
                         <div class="navbar-nav flex-column">
-                            <a class="nav-link text-primary border border-2 border-primary rounded-pill fw-bold" href="#">Mi cuenta</a>
-                            <a class="nav-link fw-bold" href="facturación.php">Facturación</a>
+                            <a class="nav-link fw-bold" href="mi_cuenta.php">Mi cuenta</a>
+                            <a class="nav-link fw-bold text-primary border border-2 border-primary rounded-pill" href="facturación.php">Facturación</a>
                             <a class="nav-link fw-bold" href="mis_contactos.php">Mis contactos</a>
                             <a class="nav-link fw-bold" href="soporte.php">Soporte</a>
                         </div>
@@ -33,54 +33,55 @@
             <!--Border with content-->
             <div class="col-10 border border-2 rounded-4 p-5">
                 <div class="row mb-3">
-                    <h4 class="fw-bold">Mi cuenta</h4>
+                    <h4 class="fw-bold">Facturación</h4>
                 </div>
                 <div class="row mb-4">
                     <div class="col-6">
-                        <input class="form-control border-1 rounded-4" placeholder="Empresa o particular">
+                        <input class="form-control border-1 rounded-4" placeholder="Profesional o personal">
                     </div>
-                </div>
-                <div class="row mb-3">
-                    <h5 class="fw-bold">Información empresa</h5>
                 </div>
                 <div class="row mb-3">
                     <div class="col-6">
                         <input class="form-control border-1 rounded-4" placeholder="Nombre de la empresa">
                     </div>
-                    <div class="col-3">
-                        <input class="form-control border-1 rounded-4" placeholder="Sector">
-                    </div>
-                    <div class="col-3">
-                        <input class="form-control border-1 rounded-4" placeholder="Envíos mensuales">
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <h5 class="fw-bold">Información general</h5>
-                </div>
-                <div class="row mb-3">
                     <div class="col-6">
-                        <input class="form-control border-1 rounded-4" placeholder="Nombre">
+                        <input class="form-control border-1 rounded-4" placeholder="Dirección">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-3">
+                        <input class="form-control border-1 rounded-4" placeholder="NIF">
+                    </div>
+                    <div class="col-3">
+                        <input class="form-control border-1 rounded-4" placeholder="País">
                     </div>
                     <div class="col-3">
                         <input class="form-control border-1 rounded-4" placeholder="Ciudad">
                     </div>
                     <div class="col-3">
-                        <input class="form-control border-1 rounded-4" placeholder="Teléfono">
-                    </div>
-                </div>
-                <div class="row mb-4">
-                    <div class="col-6">
-                        <input class="form-control border-1 rounded-4" placeholder="Email">
+                        <input class="form-control border-1 rounded-4" placeholder="Código Postal">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-6 d-flex">
-                        <p>¿Quieres cambiar tu contraseña?</p>
-                        <a class="text-decoration-none" href="#">&nbsp Restrablecer contraseña</a>
                     </div>
                     <div class="col-6 d-flex justify-content-end">
                         <a class="btn btn-primary rounded-4" href="">Guardar cambios</a>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+
+            </div>
+            <div class="col-10 border border-2 rounded-4 p-5 mt-3">
+                <div class="row">
+                    <h4 class="fw-bold">Tarjeta de crédito</h4>
+                </div>
+                <div class="row">
+                    
                 </div>
             </div>
         </div>
