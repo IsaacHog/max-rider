@@ -107,7 +107,7 @@
                             <div class="container rounded-5 p-1">
                                 <div class="row align-items-center mb-3">
                                     <h5 class="col-11 mb-0 fw-bold">Eliminar solicitud de pedido</h5>
-                                    <button class="col-1 btn border-0 d-flex justify-content-center align-items-center">
+                                    <button class="col-1 btn border-0 d-flex justify-content-center align-items-center" data-bs-dismiss="modal">
                                         <i class="bi bi-x fs-3"></i>
                                     </button>
                                 </div>
@@ -123,7 +123,7 @@
                                         <i class="bi bi-trash3"></i>
                                         Borrar solicitud
                                     </button>
-                                    <button class="col-3 btn text-black fw-bold border-0">
+                                    <button class="col-3 btn text-black fw-bold border-0" data-bs-dismiss="modal">
                                         Cancelar
                                     </button>
                                 </div>
