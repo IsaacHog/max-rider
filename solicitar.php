@@ -88,7 +88,7 @@
                     <div class="col-3 col-md-4 col-sm-5 ps-0 ps-xxl-4 ">
                         <h5 class="mb-0 fw-bold">Horario</h5>
                     </div>
-                    <div class="row mt-5 mb-5">
+                    <div class="row mt-5">
                         <div class="col-12 d-flex align-items-center justify-content-center">
                             <div class="spinner-border me-2" role="status"></div>
                             <a class="text-center fs-6 text-black text-decoration-none ms-3" href="#">Buscando un

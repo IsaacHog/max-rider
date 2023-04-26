@@ -90,14 +90,13 @@
                     </div>
 
                     <div class="col d-flex justify-content-end">
-                        <div class="bg-light rounded-pill p-2"
-                            style="width: 70px;">
+                        <div class="bg-light rounded-pill p-2">
                             <p class="fw-bold text-center m-0">Ahora</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="d-flex flex-row bg-light rounded-4 p-2 align-items-center mt-5">
+                <div class="d-flex flex-row bg-light rounded-4 p-2 align-items-center mt-2">
                     <div class="container col-2 d-flex justify-content-center align-items-center">
                         <i class="bi bi-truck fs-2 text-primary"></i>
                     </div>
