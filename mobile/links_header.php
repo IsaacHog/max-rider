@@ -22,7 +22,7 @@
 
 <script src="https://cdn.datatables.net/1.13.2/js/dataTables.bootstrap5.min.js"></script>
 
-<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../desktop/css/main.css">
 
 <!----------- EDITOR TEXT ----------->
 <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
