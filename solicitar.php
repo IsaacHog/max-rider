@@ -98,12 +98,44 @@
                 </div>
             </div>
 
+            <!-- pop up -->
+            <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <!--Pop up body-->
+                        <div class="modal-body">
+                            <div class="container rounded-5 p-1">
+                                <div class="row mb-3">
+                                    <h5 class="mb-0 fw-bold">Eliminar solicitud de pedido</h5>
+                                </div>
+
+                                <div class="row">
+                                    <p class="text-muted">Si quieres eliminar el pedido antes de que se te asigne un
+                                        repartidor estas a
+                                        tiempo. Solo tienes que confirmar la cancelación.</p>
+                                </div>
+                                <div class="row mt-3 justify-content-center">
+                                    <button class="col-5 btn btn-danger">
+                                        <i class="bi bi-trash3"></i>
+                                        Borrar solicitud
+                                    </button>
+                                    <button class="col-5 btn">
+                                        Cancelar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!-- Google maps -->
-        <div class="col-6 col-lg-7 col-xl-8 col-xxl-9">
-            <?php include "open-street-maps/maps.php"; ?>
-        </div>
+    </div>
+
+    <!-- Google maps -->
+    <div class="col-6 col-lg-7 col-xl-8 col-xxl-9">
+        <?php include "open-street-maps/maps.php"; ?>
+    </div>
     </div>
 
 </body>
