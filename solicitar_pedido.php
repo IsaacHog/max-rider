@@ -50,7 +50,7 @@
                 <div class="row">
                     <div class="row align-items-center">
                         <small class="form-text text-muted text-center fs-6">Crear un
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal">nuevo contacto</a>
+                            <a class="text-decoration-none" href="#" data-bs-toggle="modal" data-bs-target="#myModal">nuevo contacto</a>
                         </small>
                     </div>
                 </div>
