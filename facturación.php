@@ -65,7 +65,7 @@
                 <div class="row">
                     <div class="col-6 d-flex">
                     </div>
-                    <div class="col-6 d-flex justify-content-end">
+                    <div class="col-6 d-flex justify-content-end mt-4">
                         <a class="btn btn-primary rounded-4" href="">Guardar cambios</a>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                     <h4 class="fw-bold">Tarjeta de crédito</h4>
                 </div>
                 <div class="row">
-                    
+
                 </div>
             </div>
         </div>
