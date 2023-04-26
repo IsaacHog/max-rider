@@ -47,7 +47,7 @@
                         </div>
                     </div>
 
-                    <div class="col-10 ps-0 col-xxl-11 ps-xxl-4">
+                    <div class="col-3 col-md-4 col-sm-5 ps-0 ps-xxl-4 ">
                         <h5 class="mb-0 fw-bold">Entrega</h5>
                     </div>
                 </div>
@@ -85,13 +85,14 @@
                         </div>
                     </div>
 
-                    <div class="col-10 ps-0 col-xxl-11 ps-xxl-4">
+                    <div class="col-3 col-md-4 col-sm-5 ps-0 ps-xxl-4 ">
                         <h5 class="mb-0 fw-bold">Horario</h5>
                     </div>
                     <div class="row mt-5 mb-5">
                         <div class="col-12 d-flex align-items-center justify-content-center">
                             <div class="spinner-border me-2" role="status"></div>
-                            <a class="text-center fs-6 text-black text-decoration-none ms-3" href="#">Buscando un repartidor para ti</a>
+                            <a class="text-center fs-6 text-black text-decoration-none ms-3" href="#">Buscando un
+                                repartidor para ti</a>
                         </div>
                     </div>
                 </div>
@@ -106,7 +107,8 @@
                             <div class="container rounded-5 p-1">
                                 <div class="row align-items-center mb-3">
                                     <h5 class="col-11 mb-0 fw-bold">Eliminar solicitud de pedido</h5>
-                                    <button class="col-1 btn border-0 d-flex justify-content-center align-items-center" data-bs-dismiss="modal">
+                                    <button class="col-1 btn border-0 d-flex justify-content-center align-items-center"
+                                        data-bs-dismiss="modal">
                                         <i class="bi bi-x fs-3"></i>
                                     </button>
                                 </div>
