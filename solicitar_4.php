@@ -107,7 +107,7 @@
                     </div>
                 </div>
 
-                <div class="d-flex flex-row mb-5">
+                <div class="d-flex flex-row">
                     <div class="d-flex flex-row rounded-4 p-2 align-items-center">
                         <div class="container col-2 d-flex justify-content-center align-items-center">
                             <i class="bi bi-circle fs-6 text-primary"></i>
@@ -115,6 +115,17 @@
                         <div class="container d-flex flex-column justify-content-center">
                             <p class="mb-0"><b>Recogida</b></p>
                             <p class="mb-0">12/03/2023 - 11:30h</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row mb-5">
+                    <div class="d-flex flex-row rounded-4 p-2 align-items-center">
+                        <div class="container col-2 d-flex justify-content-center align-items-center">
+                            <i class="bi bi-circle fs-6 text-primary"></i>
+                        </div>
+                        <div class="container d-flex flex-column justify-content-center">
+                            <p class="mb-0"><b>Entrega</b></p>
+                            <p class="mb-0">12/03/2023 - 11:45h</p>
                         </div>
                     </div>
                 </div>

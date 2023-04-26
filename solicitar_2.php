@@ -97,7 +97,7 @@
                     </div>
                 </div>
 
-                <div class="d-flex flex-row bg-light rounded-4 p-2 align-items-center mt-5">
+                <div class="d-flex flex-row bg-light rounded-4 p-2 align-items-center mt-2">
                     <div class="container col-2 d-flex justify-content-center align-items-center">
                         <i class="bi bi-truck fs-2 text-primary"></i>
                     </div>
