@@ -15,7 +15,7 @@
     <?php include("navbar.php"); ?>
 
     <div class="container">
-        <div class="border border-1 border-secondary-subtle rounded-4 mt-5">
+        <div class="border border-1 border-secondary-subtle rounded-4 mt-5 mb-5">
             <!--Border content -->
             <div class="row ms-3 mt-4">
                 <div class="col-1">
@@ -365,6 +365,22 @@
                 </div>
             </div>
             <hr>
+            <div class="row ms-3 mb-3">
+                <div class="col-9">
+
+                </div>
+                <div class="col-3">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Anterior</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">1</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">2</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">3</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Siguiente</button>
+                  </div>
+                </div>
+            </div>
+            
+
         </div>
     </div>
 
