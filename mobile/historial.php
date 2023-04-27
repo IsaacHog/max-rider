@@ -18,7 +18,7 @@
 
     <h2 class="mb-4 fw-bold">Pedidos historial</h2>
     <!--border-->
-    <div class="border border-1 rounded-top-4 pt-3 ps-4 pe-4 bg-secondary">
+    <div class="border border-1 rounded-top-4 pt-3 ps-4 pe-4" style="background-color: lightgray;">
       <div class="row d-flex">
         <div class="col-6 text-start">
           <p class="btn btn-primary rounded-pill">ID 2423423</p>
@@ -79,7 +79,7 @@
     </div>
 
     <!--border-->
-    <div class="border border-1 rounded-top-4 pt-3 ps-4 pe-4 bg-secondary">
+    <div class="border border-1 rounded-top-4 pt-3 ps-4 pe-4" style="background-color: lightgray;">
       <div class="row d-flex">
         <div class="col-6 text-start">
           <p class="btn btn-primary rounded-pill">ID 2423423</p>
