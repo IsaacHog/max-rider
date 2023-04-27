@@ -26,24 +26,57 @@
             <p class="fs-5">Regístrate en MaxRider</p>
           </div>
 
+          <!-- input forms -->
           <div class="form-group d-grid gap-2 col-6 col-xxl-8 col-xl-9 col-lg-10 col-md-11">
-            <input class="form-control rounded-pill form-control-lg" placeholder="Nombre">
-            <input class="form-control rounded-pill form-control-lg" placeholder="Empresa o particular">
+            <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Nombre">
+            <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Empresa o particular">
+            <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Nombre de la empresa">
+            <div class="row">
+              <div class="col-6 pe-1">
+                <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Sector">
+              </div>
+              <div class="col-6 ps-1">
+                <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Envíos mensuales">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6 pe-1">
+                <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Teléfono">
+              </div>
+              <div class="col-6 ps-1">
+                <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Ciudad">
+              </div>
+            </div>
+            <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Email">
+            <div class="row">
+              <div class="col-6 pe-1">
+                <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Contraseña">
+              </div>
+              <div class="col-6 ps-1">
+                <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Repetir contraseña">
+              </div>
+            </div>
+
           </div>
 
-          <div class="row col-6 col-xxl-8 col-xl-9 col-lg-10 col-md-11 pt-2">
-            <p class="form-text text-end"><a href="#" class="text-decoration-none fs-6">¿Olvidaste tu contraseña?</a>
-            </p>
+          <div class="row col-6 col-xxl-8 col-xl-9 col-lg-10 col-md-11 pt-4">
+            <div class="col-7 ps-0">
+              <p class="text-muted" style="font-size: 12px">
+                Al registrarte aceptas los Términos y Condiciones y la Politica de privacidad de Stuart.
+              </p>
+            </div>
+            <div class="col-5 pe-0">
+              <button class="btn btn-primary w-100 rounded-4 fs-6" style="height: 42px">Crear cuenta</button>
+            </div>
           </div>
 
           <div class="row col-6 col-xxl-8 col-xl-9 col-lg-10 col-md-11">
-            <button class="btn btn-primary mb-3 p-2 rounded-4 ps-5 pe-5 fs-5">Iniciar sesión</button>
+            <p class="form-text text-black fs-6 ps-0">
+              ¿Ya estás registrado?<a href="login.php" class="text-decoration-none fs-6">
+                Iniciar sesión</a></small>
+            </p>
           </div>
 
-          <p class="form-text text-black fs-6">
-            ¿Aún no tienes cuenta?<a href="register.php" class="text-decoration-none fs-6">
-              Regístrate</a></small>
-          </p>
         </div>
       </div>
 
