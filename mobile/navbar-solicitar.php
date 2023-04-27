@@ -27,11 +27,11 @@
     </a>
   </div>
 </nav>
-<div class="container-fluid bg-white">
+<div class="container-fluid bg-white border-top border-bottom">
   <div class="container-fluid bg-white">
     <a class="btn btn-white text-center d-flex align-items-center" href="solicitar_pedido.php">
-      <i class="bi bi-arrow-left text-primary fs-4 pe-2"></i>
-      Pedido 9758234
+      <i class="bi bi-arrow-left text-primary fs-4 pe-2 fw-bold"></i>
+      <text class="fw-bold">Pedido 9758234</text>
     </a>
   </div>
 
