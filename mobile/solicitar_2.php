@@ -15,9 +15,9 @@
 <body class="bg-light">
     <?php include("navbar-solicitar.php"); ?>
 
-    <div class="container-fluid row">
+    <div class="container">
         <!-- Input fields -->
-        <div class="col-6 col-lg-5 col-xl-4 col-xxl-3 mt-5">
+        <div class="col-12 mt-5">
             <div class="container border border-1 border-secondary-subtle rounded-4 mb-4 p-3 bg-white">
                 <div class="row align-items-center mb-3">
                     <div class="col-2 pe-0 col-xxl-1">
@@ -27,7 +27,7 @@
                         </div>
                     </div>
 
-                    <div class="col-3 col-md-4 col-sm-5 ps-0 ps-xxl-4 ">
+                    <div class="col-10 ps-0 col-xxl-11 ps-xxl-4">
                         <h5 class="mb-0 fw-bold">Recogida</h5>
                     </div>
                 </div>
@@ -37,7 +37,8 @@
                     <p id="address-start" name="address-start">Carrer de Bassegoda, 5, 08028, Varcelona</p>
                 </div>
 
-                <hr class="mt-1">
+            </div>
+            <div class="container border border-1 border-secondary-subtle rounded-4 mb-4 p-3 bg-white">
 
                 <div class="row align-items-center mb-3">
                     <div class="col-2 pe-0 col-xxl-1">
@@ -57,16 +58,16 @@
                     <p id="address-end" name="address-end">Carrer de Josep Campreciós, 36, 08028, Varcelona</p>
                 </div>
 
-                <div class="d-flex flex-row bg-light rounded-4 p-2">
-                    <div class="container col-2">
-                        <i class="bi bi-box-seam fs-2 text-primary"></i>
+                <div class="d-flex flex-row bg-light rounded-4">
+                    <div class="container col-2 d-flex align-items-center justify-content-center">
+                        <i class="bi bi-box-seam fs-1 text-primary"></i>
                     </div>
                     <div class="container">
                         <p class="mb-1">ID del pedido: <b>2837462</b></p>
                         <p>Tamaño del paquete: <b>Pequeño</b></p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt-3">
                     <div class="row align-items-center">
                         <a class="text-center fs-6 text-danger text-decoration-none" href="#" data-bs-toggle="modal"
                             data-bs-target="#myModal">Cancelar envío</a>
@@ -91,12 +92,14 @@
 
                     <div class="col d-flex justify-content-end">
                         <div class="bg-light rounded-pill p-2">
-                            <p class="fw-bold text-center m-0">Ahora</p>
+                            <p class="fw-bold text-center m-0">
+                                <span style="display: inline;">&nbsp ahora &nbsp</span>
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="d-flex flex-row bg-light rounded-4 p-2 align-items-center mt-2">
+                <div class="d-flex flex-row bg-light rounded-4 p-2 align-items-center mt-3 mb-2">
                     <div class="container col-2 d-flex justify-content-center align-items-center">
                         <i class="bi bi-truck fs-2 text-primary"></i>
                     </div>
@@ -128,26 +131,24 @@
                                         tiempo. Solo tienes que confirmar la cancelación.</p>
                                 </div>
 
-                                <div class="row mt-3 justify-content-center">
-                                    <button class="col-5 btn btn-danger">
-                                        <i class="bi bi-trash3"></i>
-                                        Borrar solicitud
-                                    </button>
-                                    <button class="col-3 btn text-black fw-bold border-0" data-bs-dismiss="modal">
-                                        Cancelar
-                                    </button>
+                                <div class="row mt-3 d-flex">
+                                    <div class="col-6 d-flex justify-content-center">
+                                        <button class="btn btn-danger">
+                                            <i class="bi bi-trash3"></i>
+                                            Borrar solicitud
+                                        </button>
+                                    </div>
+                                    <div class="col-6 d-flex justify-content-center">
+                                        <button class="btn text-black fw-bold border-0" data-bs-dismiss="modal">
+                                            Cancelar
+                                        </button>
+                                    </div>  
                                 </div>
-                            </div>
+                            </div>  
                         </div>
                     </div>
                 </div>
             </div>
-
-        </div>
-
-        <!-- Google maps -->
-        <div class="col-6 col-lg-7 col-xl-8 col-xxl-9">
-            <?php include "open-street-maps/maps.php"; ?>
         </div>
     </div>
 
