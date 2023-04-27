@@ -65,9 +65,15 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-12 text-center">
+      <div class="row align-items-center">
+        <div class="col-7 text-end">
           <a class="text-primary fw-bold text-decoration-none">Ver detalle <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="col-5 text-end">
+          <a class="btn">
+            <i class="bi bi-download text-primary fs-3 p-2 ps-3 pe-3 rounded-2"
+              style="-webkit-text-stroke: 1px; background-color: lightgray"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -120,9 +126,15 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-12 text-center">
+      <div class="row align-items-center">
+        <div class="col-7 text-end">
           <a class="text-primary fw-bold text-decoration-none">Ver detalle <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="col-5 text-end">
+          <a class="btn">
+            <i class="bi bi-download text-primary fs-3 p-2 ps-3 pe-3 rounded-2"
+              style="-webkit-text-stroke: 1px; background-color: lightgray"></i>
+          </a>
         </div>
       </div>
     </div>
