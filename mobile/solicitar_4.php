@@ -18,7 +18,7 @@
     <div class="container">
         <!-- Input fields -->
         <div class="col-12 mt-5">
-            <div class="row align-items-center mb-3">
+            <div class="row align-items-center mb-5">
                 <span class="text-center">
                     <a class="btn"><i class="bi bi-download text-primary fs-3 p-2 ps-3 pe-3 rounded-2"
                             style="-webkit-text-stroke: 1px; background-color: lightgray"></i></a>
