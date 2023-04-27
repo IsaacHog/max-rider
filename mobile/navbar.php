@@ -18,7 +18,7 @@
         <a class="nav-link text-black <?php if(basename($_SERVER['PHP_SELF'])=='historial.php') echo 'border-bottom border-primary border-2'; ?>" href="historial.php">Historial</a>
       </li>
     </ul>
-    <a class="nav-link-person btn btn-light rounded-5 py-2 px-4 ml-auto" href="login.php">
+    <a class="nav-link-person btn btn-light rounded-5 py-2 px-4 ml-auto" href="mi_cuenta.php">
       <i class="bi bi-person-circle text-primary fs-4"></i>
     </a>
 
