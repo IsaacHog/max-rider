@@ -28,32 +28,32 @@
 
           <!-- input forms -->
           <div class="form-group d-grid gap-2 col-6 col-xxl-8 col-xl-9 col-lg-10 col-md-11">
-            <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Nombre">
-            <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Empresa o particular">
-            <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Nombre de la empresa">
+            <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Nombre">
+            <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Empresa o particular">
+            <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Nombre de la empresa">
             <div class="row">
               <div class="col-6 pe-1">
-                <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Sector">
+                <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Sector">
               </div>
               <div class="col-6 ps-1">
-                <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Envíos mensuales">
+                <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Envíos mensuales">
               </div>
             </div>
             <div class="row">
               <div class="col-6 pe-1">
-                <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Teléfono">
+                <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Teléfono">
               </div>
               <div class="col-6 ps-1">
-                <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Ciudad">
+                <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Ciudad">
               </div>
             </div>
-            <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Email">
+            <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Email">
             <div class="row">
               <div class="col-6 pe-1">
-                <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Contraseña">
+                <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Contraseña">
               </div>
               <div class="col-6 ps-1">
-                <input class="form-control fs-6 rounded-pill form-control-lg" placeholder="Repetir contraseña">
+                <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Repetir contraseña">
               </div>
             </div>
 

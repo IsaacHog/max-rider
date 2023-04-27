@@ -25,8 +25,8 @@
           </div>
 
           <div class="form-group d-grid gap-3 col-6 col-xxl-9 col-xl-10 col-lg-11 col-md-12">
-            <input type="email" class="form-control rounded-pill form-control-lg" id="email" placeholder="Email">
-            <input type="password" class="form-control rounded-pill form-control-lg" id="password" placeholder="Contraseña">
+            <input type="email" class="form-control rounded-4 form-control-lg" id="email" placeholder="Email">
+            <input type="password" class="form-control rounded-4 form-control-lg" id="password" placeholder="Contraseña">
           </div>
 
           <div class="row col-6 col-xxl-9 col-xl-10 col-lg-11 col-md-12 pt-2">
