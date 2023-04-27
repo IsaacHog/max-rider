@@ -14,9 +14,9 @@
 <body class="bg-light">
     <?php include("navbar.php"); ?>
 
-    <div class="container-fluid row">
+    <div class="container-fluid mt-4">
         <!-- Input fields -->
-        <div class="col-6 col-lg-5 col-xl-4 col-xxl-3 mt-5">
+        <div class="col">
 
             <!-- Recogida -->
             <div class="container border border-1 border-secondary-subtle rounded-4 mb-4 p-3 bg-white">
@@ -33,7 +33,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row mb-2">
                     <div class="position-relative w-100">
                         <input type="text"
                             class="btn border border-1 rounded-5 text-start bg-white search-input form-control"
@@ -87,18 +87,18 @@
 
                 <div class="row">
                     <div class="row align-items-center mb-3">
-                        <small class="form-text text-black fs-6">Persona de contacto</small>
+                        <small class="form-text text-black fs-6 fw-bold">Persona de contacto</small>
                     </div>
-                    <div class="col-6 mb-3">
+                    <div class="col-12 mb-3">
                         <input class="form-control border-1 rounded-5" placeholder="Nombre">
                     </div>
-                    <div class="col-6 mb-3">
+                    <div class="col-12 mb-3">
                         <input class="form-control border-1 rounded-5" placeholder="Apellidos">
                     </div>
-                    <div class="col-6 mb-3">
+                    <div class="col-12 mb-3">
                         <input class="form-control border-1 rounded-5" placeholder="Compañía">
                     </div>
-                    <div class="col-6 mb-3">
+                    <div class="col-12 mb-3">
                         <input class="form-control border-1 rounded-5" placeholder="Teléfono">
                     </div>
                     <div class="col-12 mb-3">
@@ -111,12 +111,12 @@
 
                 <div class="row">
                     <div class="row align-items-center mb-3">
-                        <small class="form-text text-black fs-6">Detalles del pedido</small>
+                        <small class="form-text text-black fs-6 fw-bold">Detalles del pedido</small>
                     </div>
-                    <div class="col-6 mb-3">
+                    <div class="col-12 mb-3">
                         <input class="form-control border-1 rounded-5" placeholder="Tamaño">
                     </div>
-                    <div class="col-6 mb-3">
+                    <div class="col-12 mb-3">
                         <input class="form-control border-1 rounded-5" placeholder="ID del pedido">
                     </div>
                     <div class="col-12 mb-3">
@@ -145,10 +145,10 @@
                     </div>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-6 mb-3">
+                    <div class="col-12 mb-3">
                         <input class="form-control border-1 rounded-5" placeholder="Tamaño">
                     </div>
-                    <div class="col-6 mb-3">
+                    <div class="col-12 mb-3">
                         <input class="form-control border-1 rounded-5" placeholder="ID del pedido">
                     </div>
                 </div>
@@ -157,22 +157,22 @@
             <!--Solicitar-->
             <div class="container border border-1 border-secondary-subtle mb-4 p-3 bg-white">
                 <div class="row align-items-center">
-                    <div class="col-2 pe-0 col-xxl-1">
+                    <div class="col-1 pe-0 col-xxl-1">
                         <div class="rounded-3 ml-auto d-flex justify-content-center align-items-center" style="width: 33px; height: 32px;">
                             <i class="bi bi-cash-coin fs-5 text-primary"></i>
                         </div>
                     </div>
-                    <div class="col-8 col-xxl-10 ps-0">
+                    <div class="col-6">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-10">
                                 <p class="mb-0 ms-3" style="color:grey">Total (sin IVA):</p>
                             </div>
-                            <div class="col-6">
+                            <div class="col-2">
                                 <p class="mb-0">7,20€</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-2 col-xxl-1 d-flex justify-content-end">
+                    <div class="col col-xxl-1 d-flex justify-content-end">
                         <a class="btn btn-primary" href="solicitar.php">Solicitar</a>
                     </div>
                 </div>
