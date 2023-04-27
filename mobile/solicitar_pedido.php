@@ -198,7 +198,7 @@
                                     </div>
                                 </div>
 
-                                <div class="row mb-2">
+                                <div class="row mb-3">
                                     <div class="position-relative w-100">
                                         <input type="text"
                                             class="btn border border-1 rounded-5 text-start bg-white search-input form-control"
@@ -216,25 +216,25 @@
                                     <div class="col-12 mb-3">
                                         <input class="form-control border-1 rounded-5" placeholder="Piso, puerta o información adicional">
                                     </div>
-                                    <div class="col-6 mb-3">
+                                    <div class="col-12 mb-3">
                                         <input class="form-control border-1 rounded-5" placeholder="Nombre">
                                     </div>
-                                    <div class="col-6 mb-3">
+                                    <div class="col-12 mb-3">
                                         <input class="form-control border-1 rounded-5" placeholder="Apellidos">
                                     </div>
                                     <div class="col-12 mb-3">
                                         <input class="form-control border-1 rounded-5" placeholder="Compañía">
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-12 mb-3">
                                         <input class="form-control border-1 rounded-5" placeholder="Teléfono">
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-12">
                                         <input class="form-control border-1 rounded-5" placeholder="Email">
                                     </div>
                                     <div class="col-6">
 
                                     </div>
-                                    <div class="col-6 d-flex justify-content-end mt-3">
+                                    <div class="col-12 d-flex justify-content-center mt-3">
                                       <button class="btn btn-primary">Crear contacto</button>
                                     </div>
                                 </div>
