@@ -32,7 +32,7 @@
   <div class="row mt-3 mb-3">
     <div class="row flex-nowrap overflow-x-auto">
       <div class="col-5 pe-3">
-        <a class="nav-link text-primary border border-2 border-primary rounded-pill fw-bold fs-5 text-nowrap text-center" href="#">Mi cuenta</a>
+        <a class="nav-link text-primary border border-2 border-primary rounded-pill fw-bold fs-5 text-nowrap text-center" href="mi_cuenta.php">Mi cuenta</a>
       </div>
       <div class="col-5 pe-3">
         <a class="nav-link fw-bold fs-5 text-nowrap text-center" href="facturación.php">Facturación</a>
