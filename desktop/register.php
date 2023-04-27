@@ -20,21 +20,23 @@
         </div>
 
         <div class="container-fluid pt-3 d-flex flex-column align-items-center">
-          <div class="row col-6 col-xxl-9 col-xl-10 col-lg-11 col-md-12 pb-4">
-            <h5 class="fw-bold fs-2">Iniciar sesión en MaxRider</h5>
+
+          <div class="row pb-4 col-6 col-xxl-8 col-xl-9 col-lg-10 col-md-11">
+            <h5 class="fw-bold fs-2">Regístrate en MaxRider</h5>
+            <p class="fs-5">Regístrate en MaxRider</p>
           </div>
 
-          <div class="form-group d-grid gap-3 col-6 col-xxl-9 col-xl-10 col-lg-11 col-md-12">
-            <input type="email" class="form-control rounded-pill form-control-lg" id="email" placeholder="Email">
-            <input type="password" class="form-control rounded-pill form-control-lg" id="password" placeholder="Contraseña">
+          <div class="form-group d-grid gap-2 col-6 col-xxl-8 col-xl-9 col-lg-10 col-md-11">
+            <input class="form-control rounded-pill form-control-lg" placeholder="Nombre">
+            <input class="form-control rounded-pill form-control-lg" placeholder="Empresa o particular">
           </div>
 
-          <div class="row col-6 col-xxl-9 col-xl-10 col-lg-11 col-md-12 pt-2">
+          <div class="row col-6 col-xxl-8 col-xl-9 col-lg-10 col-md-11 pt-2">
             <p class="form-text text-end"><a href="#" class="text-decoration-none fs-6">¿Olvidaste tu contraseña?</a>
             </p>
           </div>
 
-          <div class="row col-6 col-xxl-9 col-xl-10 col-lg-11 col-md-12">
+          <div class="row col-6 col-xxl-8 col-xl-9 col-lg-10 col-md-11">
             <button class="btn btn-primary mb-3 p-2 rounded-4 ps-5 pe-5 fs-5">Iniciar sesión</button>
           </div>
 
