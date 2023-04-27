@@ -35,7 +35,7 @@
       </div>
 
       <p class="form-text text-black fs-6">
-        ¿Ya estás registrado?<a href="#" class="text-decoration-none fs-6">
+        ¿Ya estás registrado?<a href="register.php" class="text-decoration-none fs-6">
         Iniciar sesión</a></small>
     </div>
 
