@@ -15,9 +15,9 @@
 <body class="bg-light">
     <?php include("navbar-solicitar.php"); ?>
 
-    <div class="container-fluid row">
+    <div class="container">
         <!-- Input fields -->
-        <div class="col-6 col-lg-5 col-xl-4 col-xxl-3 mt-5">
+        <div class="col-12 mt-5">
             <div class="container border border-1 border-secondary-subtle rounded-4 mb-4 p-3 bg-white">
                 <div class="row align-items-center mb-3">
                     <div class="col-2 pe-0 col-xxl-1">
@@ -37,7 +37,8 @@
                     <p id="address-start" name="address-start">Carrer de Bassegoda, 5, 08028, Varcelona</p>
                 </div>
 
-                <hr class="mt-1">
+            </div>
+            <div class="container border border-1 border-secondary-subtle rounded-4 mb-4 p-3 bg-white">
 
                 <div class="row align-items-center mb-3">
                     <div class="col-2 pe-0 col-xxl-1">
@@ -96,7 +97,7 @@
                     </div>
                 </div>
 
-                <div class="d-flex flex-row bg-light rounded-4 p-2 align-items-center mt-2">
+                <div class="d-flex flex-row bg-light rounded-4 p-2 align-items-center mt-3">
                     <div class="container col-2 d-flex justify-content-center align-items-center">
                         <i class="bi bi-truck fs-2 text-primary"></i>
                     </div>
@@ -131,7 +132,7 @@
             </div>
 
             <!-- Total / factura -->
-            <div class="container border border-1 border-secondary-subtle rounded-4 mb-4 p-3 bg-white">
+            <div class="container border border-1 border-secondary-subtle rounded-4 mb-5 p-3 bg-white">
                 <div class="row">
                     <div class="col-6">
                         <p class="text-muted">Importe</p>
@@ -162,13 +163,13 @@
                 <hr>
 
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-12 d-flex align-items-center justify-content-center mb-3">
                         <button class="btn btn-light rounded-5 fw-bold" href="#">
                             <i class="bi bi-file-earmark-text text-primary fs-4"></i>
                             Solicitar factura
                         </button>
                     </div>
-                    <div class="col-5 d-flex justify-content-end align-items-center">
+                    <div class="col-12 d-flex align-items-center justify-content-center mb-2">
                         <p class="text-muted mb-0">Abrir una incidencia</p>
                     </div>
                 </div>
@@ -210,12 +211,6 @@
                     </div>
                 </div>
             </div>
-
-        </div>
-
-        <!-- Google maps -->
-        <div class="col-6 col-lg-7 col-xl-8 col-xxl-9">
-            <?php include "open-street-maps/maps.php"; ?>
         </div>
     </div>
 

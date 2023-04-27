@@ -15,9 +15,9 @@
 <body class="bg-light">
     <?php include("navbar-solicitar.php"); ?>
 
-    <div class="container-fluid row">
+    <div class="container">
         <!-- Input fields -->
-        <div class="col-6 col-lg-5 col-xl-4 col-xxl-3 mt-5">
+        <div class="col-12 mt-5">
             <div class="container border border-1 border-secondary-subtle rounded-4 mb-4 p-3 bg-white">
                 <div class="row align-items-center mb-3">
                     <div class="col-2 pe-0 col-xxl-1">
@@ -36,9 +36,8 @@
                     <p class="mb-1">Name - Company</p>
                     <p id="address-start" name="address-start">Carrer de Bassegoda, 5, 08028, Varcelona</p>
                 </div>
-
-                <hr class="mt-1">
-
+            </div>
+            <div class="container border border-1 border-secondary-subtle rounded-4 mb-4 p-3 bg-white">
                 <div class="row align-items-center mb-3">
                     <div class="col-2 pe-0 col-xxl-1">
                         <div class="rounded-3 ml-auto bg-primary d-flex justify-content-center align-items-center"
@@ -66,7 +65,7 @@
                         <p>Tamaño del paquete: <b>Pequeño</b></p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt-3">
                     <div class="row align-items-center">
                         <a class="text-center fs-6 text-danger text-decoration-none" href="#" data-bs-toggle="modal"
                             data-bs-target="#myModal">Cancelar envío</a>
@@ -92,13 +91,13 @@
                     <div class="col d-flex justify-content-end">
                         <div class="bg-light rounded-pill p-2">
                             <p class="fw-bold text-center m-0">
-                                Entrega en <span class="text-primary" style="display: inline;">13 minutos</span>
+                                <span class="text-primary" style="display: inline;">&nbsp 13 minutos &nbsp</span>
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="d-flex flex-row bg-light rounded-4 p-2 align-items-center mt-2">
+                <div class="d-flex flex-row bg-light rounded-4 p-2 align-items-center mt-3">
                     <div class="container col-2 d-flex justify-content-center align-items-center">
                         <i class="bi bi-truck fs-2 text-primary"></i>
                     </div>
@@ -156,12 +155,6 @@
                     </div>
                 </div>
             </div>
-
-        </div>
-
-        <!-- Google maps -->
-        <div class="col-6 col-lg-7 col-xl-8 col-xxl-9">
-            <?php include "open-street-maps/maps.php"; ?>
         </div>
     </div>
 
