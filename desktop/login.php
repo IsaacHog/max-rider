@@ -14,8 +14,8 @@
       <div class="col-md-6 d-flex align-items-center justify-content-center position-relative">
         <div class="logo-container position-absolute top-0 start-0 pt-3 ps-2">
           <a class="d-flex align-items-center text-decoration-none" href="index.php">
-            <span class="text-primary fs-1" style="font-family: 'Visby CF', sans-serif; font-weight: normal;">Max</span>
-            <span class="text-primary fs-1" style="font-family: 'Visby CF', sans-serif; font-weight: bold;">Rider</span>
+            <span class="text-primary fs-2" style="font-family: 'Visby CF', sans-serif; font-weight: normal;">Max</span>
+            <span class="text-primary fs-2" style="font-family: 'Visby CF', sans-serif; font-weight: bold;">Rider</span>
           </a>
         </div>
 
