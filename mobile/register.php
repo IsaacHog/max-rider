@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <a class="d-flex align-items-center text-decoration-none pt-3 ps-3" href="../index.php">
+  <a class="d-flex align-items-center text-decoration-none pt-3 ps-3" href="solicitar_pedido.php">
     <span class="text-primary fs-1" style="font-family: 'Visby CF', sans-serif; font-weight: normal;">Max</span>
     <span class="text-primary fs-1" style="font-family: 'Visby CF', sans-serif; font-weight: bold;">Rider</span>
   </a>
