@@ -12,11 +12,11 @@
 </head>
 
 <body class="bg-light">
-  <?php include("mi_cuenta_navbar.php"); ?>
+  <?php include("navbar.php"); ?>
   
   <div class="container mt-4">
 
-    <h2 class="mb-4 fw-bold">Mis contactos</h2>
+    <h2 class="mb-4 fw-bold">Pedidos activos</h2>
     <!--border-->
     <div class="border border-1 rounded-top-4 pt-3 ps-4 pe-4 bg-secondary">
       <div class="row d-flex">

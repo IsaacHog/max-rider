@@ -49,5 +49,5 @@
           echo 'text-primary border-primary border border-2 rounded-pill'; ?>" href="soporte.php">Soporte</a>
       </div>
     </div>
-    <div>
-    </div>
+  </div>
+</div>
