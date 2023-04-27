@@ -20,7 +20,7 @@
       <li class="nav-item">
         <a class="nav-link text-black <?php if (basename($_SERVER['PHP_SELF']) == 'historial.php')
           echo 'border-bottom border-primary border-2'; ?>" href="historial.php">Historial</a>
-      </li>
+      </li>\max-rider\mobile\facturación.php
     </ul>
     <a class="nav-link-person btn btn-light rounded-5 py-2 px-4 ml-auto" href="login.php">
       <i class="bi bi-person-circle text-primary fs-4"></i>
@@ -28,19 +28,21 @@
   </div>
 </nav>
 
-<div class="container bg-white border-top border-bottom overflow-x-auto">
-  <div class="row mt-2 mb-2" style="white-space: nowrap;">
-    <div class="col">
-      <a class="nav-link text-primary border border-2 border-primary rounded-pill fw-bold fs-6" href="#">Mi cuenta</a>
+<div class="container border-top border-bottom">
+  <div class="row mt-3 mb-3">
+    <div class="row flex-nowrap overflow-x-auto">
+      <div class="col-5 pe-3">
+        <a class="nav-link text-primary border border-2 border-primary rounded-pill fw-bold fs-5 text-nowrap text-center" href="#">Mi cuenta</a>
+      </div>
+      <div class="col-5 pe-3">
+        <a class="nav-link fw-bold fs-5 text-nowrap text-center" href="facturación.php">Facturación</a>
+      </div>
+      <div class="col-5 pe-3">
+        <a class="nav-link fw-bold fs-5 text-nowrap text-center" href="mis_contactos.php">Mis contactos</a>
+      </div>
+      <div class="col-5 pe-3">
+        <a class="nav-link fw-bold fs-5 text-nowrap text-center" href="soporte.php">Soporte</a>
+      </div>
     </div>
-    <div class="col">
-      <a class="nav-link fw-bold fs-6" href="facturación.php">Facturación</a>
-    </div>
-    <div class="col">
-      <a class="nav-link fw-bold fs-6" href="mis_contactos.php">Mis contactos</a>
-    </div>
-    <div class="col">
-      <a class="nav-link fw-bold fs-6" href="soporte.php">Soporte</a>
-    </div>
-  </div>
+  <div>
 </div>
