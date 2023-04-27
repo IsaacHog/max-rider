@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-sm bg-white navbar-light p-3">
-  <a class="navbar-brand d-flex align-items-center" href="index.php">
+  <a class="navbar-brand d-flex align-items-center" href="solicitar_pedido.php">
     <span class="text-primary fs-2" style="font-family: 'Visby CF', sans-serif; font-weight: normal;">Max</span>
     <span class="text-primary fs-2" style="font-family: 'Visby CF', sans-serif; font-weight: bold;">Rider</span>
   </a>
