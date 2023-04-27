@@ -32,17 +32,22 @@
   <div class="row mt-3 mb-3">
     <div class="row flex-nowrap overflow-x-auto">
       <div class="col-5 pe-3">
-        <a class="nav-link text-primary border border-2 border-primary rounded-pill fw-bold fs-5 text-nowrap text-center" href="mi_cuenta.php">Mi cuenta</a>
+        <a class="nav-link fw-bold fs-5 text-nowrap text-center <?php if (basename($_SERVER['PHP_SELF']) == 'mi_cuenta.php')
+          echo 'text-primary border-primary border border-2 rounded-pill'; ?>" href="mi_cuenta.php">Mi cuenta</a>
       </div>
       <div class="col-5 pe-3">
-        <a class="nav-link fw-bold fs-5 text-nowrap text-center" href="facturación.php">Facturación</a>
+        <a class="nav-link fw-bold fs-5 text-nowrap text-center <?php if (basename($_SERVER['PHP_SELF']) == 'facturación.php')
+          echo 'text-primary border-primary border border-2 rounded-pill'; ?>" href="facturación.php">Facturación</a>
       </div>
       <div class="col-5 pe-3">
-        <a class="nav-link fw-bold fs-5 text-nowrap text-center" href="mis_contactos.php">Mis contactos</a>
+        <a class="nav-link fw-bold fs-5 text-nowrap text-center <?php if (basename($_SERVER['PHP_SELF']) == 'mis_contactos.php')
+          echo 'text-primary border-primary border border-2 rounded-pill'; ?>" href="mis_contactos.php">Mis
+          contactos</a>
       </div>
       <div class="col-5 pe-3">
-        <a class="nav-link fw-bold fs-5 text-nowrap text-center" href="soporte.php">Soporte</a>
+        <a class="nav-link fw-bold fs-5 text-nowrap text-center <?php if (basename($_SERVER['PHP_SELF']) == 'soporte.php')
+          echo 'text-primary border-primary border border-2 rounded-pill'; ?>" href="soporte.php">Soporte</a>
       </div>
     </div>
-  <div>
-</div>
+    <div>
+    </div>
