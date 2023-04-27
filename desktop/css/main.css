@@ -1,24 +1,24 @@
 @font-face {
   font-family: 'Visby CF';
-  src: url('../assets/visbycf-bold.otf') format('opentype');
+  src: url('../../assets/visbycf-bold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Visby CF';
-  src: url('../assets/visbycf-regular.otf') format('opentype');
+  src: url('../../assets/visbycf-regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Inter';
-  src: url('../assets/Inter-Regular.otf') format('opentype');
+  src: url('../../assets/Inter-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Inter';
-  src: url('../assets/Inter-Bold.otf') format('opentype');
+  src: url('../../assets/Inter-Bold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }

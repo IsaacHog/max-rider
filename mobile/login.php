@@ -20,10 +20,10 @@
       </div>
 
       <div class="form-group pb-3">
-        <input type="email" class="form-control rounded-pill form-control-lg" id="email" placeholder="Email">
+        <input type="email" class="form-control rounded-4 form-control-lg" id="email" placeholder="Email">
       </div>
       <div class="form-group">
-        <input type="password" class="form-control rounded-pill form-control-lg" id="password" placeholder="Contraseña">
+        <input type="password" class="form-control rounded-4 form-control-lg" id="password" placeholder="Contraseña">
       </div>
       <div class="row">
         <p class="form-text text-muted"><a href="#" class="text-decoration-none fs-6">¿Has olvidado tu contraseña?</a>
