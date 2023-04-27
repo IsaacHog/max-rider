@@ -39,7 +39,7 @@
       <p class="text-center" style="font-size: 12px">
         Al registrarte aceptas los <span class="text-decoration-underline">Términos y Condiciones</span> y la <span class="text-decoration-underline">Politica de privacidad</span> de Stuart.
       </p>
-      <button class="btn btn-primary rounded-pill fs-6 w-auto ps-4 pe-4" style="height: 52px">Crear cuenta</button>
+      <button class="btn btn-primary rounded-4 fs-6 w-auto ps-4 pe-4" style="height: 52px">Crear cuenta</button>
     </div>
 
     <div class="row pt-3">

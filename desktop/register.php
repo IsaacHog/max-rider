@@ -62,7 +62,8 @@
           <div class="row col-6 col-xxl-8 col-xl-9 col-lg-10 col-md-11 pt-4">
             <div class="col-7 ps-0">
               <p class="text-muted" style="font-size: 12px">
-                Al registrarte aceptas los Términos y Condiciones y la Politica de privacidad de Stuart.
+                Al registrarte aceptas los <span class="text-decoration-underline">Términos y Condiciones</span> y la
+                <span class="text-decoration-underline">Politica de privacidad</span> de Stuart.
               </p>
             </div>
             <div class="col-5 pe-0">
