@@ -1,23 +1,28 @@
 <?php
-    //Get values from login and choosing correct table to put the data in from login.php
-    $username = $POST['email'];
-    $password = $POST['password'];
+    // Get values from login and choosing correct table to put the data in from login.php
+    $email = $_POST['email'];
+    $password = $_POST['password'];
 
-    //connect to the server and database
-    mysql_connect("localhost", "root", "");
-    mysql_select_db("isaacsakda");
+    // Connect to the server and database using mysqli
+    $conn = mysqli_connect("localhost", "root", "", "isaacsakda");
 
-    //query the database for users
-    $result = mysql_query("select * from users where email = '$username' and password = '$password'");
+    // Sanitize user input to prevent SQL injection
+    $email = mysqli_real_escape_string($conn, $email);
+    $password = mysqli_real_escape_string($conn, $password);
 
-    $row = mysql_fetch_array($result);
-    if($row['username'] == $username && $row['password'] == $password ) 
+    // Query the database for users using prepared statement
+    $stmt = mysqli_prepare($conn, "SELECT * FROM users WHERE email = ? AND password = ?");
+    mysqli_stmt_bind_param($stmt, "ss", $email, $password);
+    mysqli_stmt_execute($stmt);
+    $result = mysqli_stmt_get_result($stmt);
+
+    $row = mysqli_fetch_array($result);
+    if($row) 
     {
-        echo "du har loggat in correct, välkommen " $row['username']; 
+        echo "Du har loggat in korrekt, välkommen " . $row['email']; 
     } 
     else 
     {
-        echo "failed";
+        echo "Inloggningen misslyckades";
     }
-
 ?>

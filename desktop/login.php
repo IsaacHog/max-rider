@@ -26,8 +26,8 @@
 
           <div class="form-group d-grid gap-3 col-6 col-xxl-9 col-xl-10 col-lg-11 col-md-12">
             <form action="loginprocess.php" method="POST">
-              <input type="email" class="form-control rounded-4 form-control-lg" id="email" placeholder="Email">
-              <input type="password" class="form-control rounded-4 form-control-lg" id="password" placeholder="Contraseña">
+              <input type="email" class="form-control rounded-4 form-control-lg" id="email" name="email" placeholder="Email">
+              <input type="password" class="form-control rounded-4 form-control-lg" id="password" name="password" placeholder="Contraseña">
               <button type="submit" id="btn" value="Login" class="btn btn-primary mb-3 p-2 rounded-4 ps-5 pe-5 fs-5">Iniciar sesión</button>
             </form>
           </div>
