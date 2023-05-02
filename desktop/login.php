@@ -25,8 +25,11 @@
           </div>
 
           <div class="form-group d-grid gap-3 col-6 col-xxl-9 col-xl-10 col-lg-11 col-md-12">
-            <input type="email" class="form-control rounded-4 form-control-lg" id="email" placeholder="Email">
-            <input type="password" class="form-control rounded-4 form-control-lg" id="password" placeholder="Contraseña">
+            <form action="loginprocess.php" method="POST">
+              <input type="email" class="form-control rounded-4 form-control-lg" id="email" placeholder="Email">
+              <input type="password" class="form-control rounded-4 form-control-lg" id="password" placeholder="Contraseña">
+              <button type="submit" id="btn" value="Login" class="btn btn-primary mb-3 p-2 rounded-4 ps-5 pe-5 fs-5">Iniciar sesión</button>
+            </form>
           </div>
 
           <div class="row col-6 col-xxl-9 col-xl-10 col-lg-11 col-md-12 pt-2">
@@ -35,7 +38,7 @@
           </div>
 
           <div class="row col-6 col-xxl-9 col-xl-10 col-lg-11 col-md-12">
-            <button class="btn btn-primary mb-3 p-2 rounded-4 ps-5 pe-5 fs-5">Iniciar sesión</button>
+            <button type="submit" id="btn" value="Login" class="btn btn-primary mb-3 p-2 rounded-4 ps-5 pe-5 fs-5">Iniciar sesión</button>
           </div>
 
           <p class="form-text text-black fs-6">
