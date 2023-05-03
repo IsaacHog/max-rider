@@ -13,6 +13,18 @@ export function attachClickHandler() {
       const selectedLocation = $(this).text().trim(); // trim whitespace
       const positionType = $(this).data('position-type');
 
+      $.ajax({
+        url: 'open-street-maps/save-location.php',
+        method: 'POST',
+        data: { lat: lat, long: long, location: selectedLocation, positionType: positionType },
+        success: function (response) {
+          console.log(response);
+        },
+        error: function (xhr, status, error) {
+          console.error(error);
+        }
+      });
+
       localStorage.setItem(`${positionType}-marker`, JSON.stringify({ lat: lat, long: long, location: selectedLocation, positionType: positionType }));
       $("#query-" + positionType).val(selectedLocation);
 
