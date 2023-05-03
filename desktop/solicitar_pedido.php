@@ -50,7 +50,8 @@
                 <div class="row">
                     <div class="row align-items-center">
                         <small class="form-text text-muted text-center fs-6">Crear un
-                            <a class="text-decoration-none" href="#" data-bs-toggle="modal" data-bs-target="#myModal">nuevo contacto</a>
+                            <a class="text-decoration-none" href="#" data-bs-toggle="modal"
+                                data-bs-target="#myModal">nuevo contacto</a>
                         </small>
                     </div>
                 </div>
@@ -158,7 +159,8 @@
             <div class="container border border-1 border-secondary-subtle mb-4 p-3 bg-white">
                 <div class="row align-items-center">
                     <div class="col-2 pe-0 col-xxl-1">
-                        <div class="rounded-3 ml-auto d-flex justify-content-center align-items-center" style="width: 33px; height: 32px;">
+                        <div class="rounded-3 ml-auto d-flex justify-content-center align-items-center"
+                            style="width: 33px; height: 32px;">
                             <i class="bi bi-cash-coin fs-5 text-primary"></i>
                         </div>
                     </div>
@@ -173,7 +175,47 @@
                         </div>
                     </div>
                     <div class="col-2 col-xxl-1 d-flex justify-content-end">
-                        <a class="btn btn-primary" href="solicitar.php">Solicitar</a>
+                        <a class="btn btn-primary solicitar-btn" href="solicitar.php" id="solicitar-btn">Solicitar</a>
+                        <script>
+                            document.getElementById("solicitar-btn").addEventListener("click", function () {
+                                const startLocation = document.getElementById("query-start").value.trim();
+                                const endLocation = document.getElementById("query-end").value.trim();
+
+                                if (startLocation === "" || endLocation === "") {
+                                    console.log("No locations selected, not saving to db")
+                                    return
+                                }
+
+                                const startMarker = JSON.parse(localStorage.getItem('start-marker'));
+                                const endMarker = JSON.parse(localStorage.getItem('end-marker'));
+                                
+                                $.ajax({
+                                    url: 'open-street-maps/save-location.php',
+                                    method: 'POST',
+                                    data: { lat: startMarker.lat, long: startMarker.long, location: startLocation, positionType: "start" },
+                                    success: function (response) {
+                                        console.log(response);
+                                    },
+                                    error: function (xhr, status, error) {
+                                        console.error(error);
+                                    }
+                                });
+                                
+                                
+                                $.ajax({
+                                    url: 'open-street-maps/save-location.php',
+                                    method: 'POST',
+                                    data: { lat: endMarker.lat, long: endMarker.long, location: endLocation, positionType: "start" },
+                                    success: function (response) {
+                                        console.log(response);
+                                    },
+                                    error: function (xhr, status, error) {
+                                        console.error(error);
+                                    }
+                                });
+
+                            });
+                        </script>
                     </div>
                 </div>
             </div>
@@ -214,7 +256,8 @@
 
                                 <div class="row">
                                     <div class="col-12 mb-3">
-                                        <input class="form-control border-1 rounded-5" placeholder="Piso, puerta o información adicional">
+                                        <input class="form-control border-1 rounded-5"
+                                            placeholder="Piso, puerta o información adicional">
                                     </div>
                                     <div class="col-6 mb-3">
                                         <input class="form-control border-1 rounded-5" placeholder="Nombre">
@@ -235,7 +278,7 @@
 
                                     </div>
                                     <div class="col-6 d-flex justify-content-end mt-3">
-                                      <button class="btn btn-primary">Crear contacto</button>
+                                        <button class="btn btn-primary">Crear contacto</button>
                                     </div>
                                 </div>
                             </div>
