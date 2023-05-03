@@ -19,7 +19,7 @@
     $row = mysqli_fetch_array($result);
     if($row) 
     {
-        echo "Du har loggat in korrekt, välkommen " . $row['email']; 
+        header("Location: solicitar_pedido.php"); 
     } 
     else 
     {

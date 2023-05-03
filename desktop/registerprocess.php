@@ -1,26 +1,27 @@
 <?php
-// Get the email and password values from the form
-$email = $_POST['email'];
-$password = $_POST['password'];
-
-// Connect to the MySQL database
+// Define database connection variables
 $servername = "localhost";
-$username = "username";
-$password = "password";
-$dbname = "myDB";
+$username = "root";
+$password = "";
+$dbname = "isaacsakda";
 
+// Create a connection to the database
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check if the connection was successful
+// Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Insert the email and password into the users table
+// Retrieve the email and password from the form submission
+$email = $_POST["email"];
+$password = $_POST["password"];
+
+// Insert the email and password into the database
 $sql = "INSERT INTO users (email, password) VALUES ('$email', '$password')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
+    header("Location: login.php");
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }

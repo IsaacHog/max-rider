@@ -27,7 +27,7 @@
           </div>
 
           <!-- input forms -->
-          <form>
+          <form method="POST" action="registerprocess.php">
             <div class="form-group d-grid gap-2 col-6 col-xxl-8 col-xl-9 col-lg-10 col-md-11">
               <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Nombre">
               <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Empresa o particular">
@@ -48,10 +48,10 @@
                   <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Ciudad">
                 </div>
               </div>
-              <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Email">
+              <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Email" name="email">
               <div class="row">
                 <div class="col-6 pe-1">
-                  <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Contraseña">
+                  <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Contraseña" name="password">
                 </div>
                 <div class="col-6 ps-1">
                   <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Repetir contraseña">
