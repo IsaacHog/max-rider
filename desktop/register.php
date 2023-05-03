@@ -27,37 +27,41 @@
           </div>
 
           <!-- input forms -->
-          <div class="form-group d-grid gap-2 col-6 col-xxl-8 col-xl-9 col-lg-10 col-md-11">
-            <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Nombre">
-            <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Empresa o particular">
-            <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Nombre de la empresa">
-            <div class="row">
-              <div class="col-6 pe-1">
-                <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Sector">
+          <form>
+            <div class="form-group d-grid gap-2 col-6 col-xxl-8 col-xl-9 col-lg-10 col-md-11">
+              <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Nombre">
+              <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Empresa o particular">
+              <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Nombre de la empresa">
+              <div class="row">
+                <div class="col-6 pe-1">
+                  <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Sector">
+                </div>
+                <div class="col-6 ps-1">
+                  <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Envíos mensuales">
+                </div>
               </div>
-              <div class="col-6 ps-1">
-                <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Envíos mensuales">
+              <div class="row">
+                <div class="col-6 pe-1">
+                  <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Teléfono">
+                </div>
+                <div class="col-6 ps-1">
+                  <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Ciudad">
+                </div>
               </div>
+              <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Email">
+              <div class="row">
+                <div class="col-6 pe-1">
+                  <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Contraseña">
+                </div>
+                <div class="col-6 ps-1">
+                  <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Repetir contraseña">
+                </div>
+              </div>
+          
+              <button type="submit" class="btn btn-primary mt-3">Enviar</button>
             </div>
-            <div class="row">
-              <div class="col-6 pe-1">
-                <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Teléfono">
-              </div>
-              <div class="col-6 ps-1">
-                <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Ciudad">
-              </div>
-            </div>
-            <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Email">
-            <div class="row">
-              <div class="col-6 pe-1">
-                <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Contraseña">
-              </div>
-              <div class="col-6 ps-1">
-                <input class="form-control fs-6 rounded-4 form-control-lg" placeholder="Repetir contraseña">
-              </div>
-            </div>
+          </form>
 
-          </div>
 
           <div class="row col-6 col-xxl-8 col-xl-9 col-lg-10 col-md-11 pt-4">
             <div class="col-7 ps-0">
